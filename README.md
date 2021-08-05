@@ -22,7 +22,7 @@ A [Telemetrum V3](https://altusmetrum.org/TeleMetrum/) is an amateur rocketry te
 #### Physical
 
 * Expected Size: 53 x 69 mm (Arduino Uno)
-* Best Size: Around 75" by 25" if possible
+* Best Size: Around 75 x 25 mm if possible
 * Thin/Long is better than Square
 * Rectangualar shape w/ rounded edges
 * Screw Mounting Holes
