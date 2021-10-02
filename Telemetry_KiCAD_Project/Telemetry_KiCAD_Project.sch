@@ -4,13 +4,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Title "Telemetry PCB Schematic"
+Date "2021-10-01"
+Rev "v1.0.1"
+Comp "Missouri S&T Rocket Design Team '21 (Thomas Francois)"
+Comment1 "https://github.com/MSTRocketDesignTeam/Avionics-Telemetry-PCB"
+Comment2 "Intended as initial pre-production design"
+Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
