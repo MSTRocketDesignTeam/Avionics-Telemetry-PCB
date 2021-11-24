@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Telemetry_KiCAD_Project-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 7
 Title "STM32L151CBT Schematic"
 Date "2021-10-01"
 Rev "v1.0.1"
@@ -454,4 +455,26 @@ Wire Notes Line
 	3400 1700 3400 800 
 Wire Notes Line
 	3400 800  950  800 
+Text HLabel 9050 3750 2    50   Input ~ 0
+SPI2_SCK
+Text HLabel 9050 3850 2    50   Input ~ 0
+SPI2_MISO
+Text HLabel 9050 3950 2    50   Input ~ 0
+SPI2_MOSI
+Text HLabel 7850 4750 0    50   Input ~ 0
+SPI3_SCK
+Text HLabel 7850 4850 0    50   Input ~ 0
+SPI3_MISO
+Text HLabel 7850 4950 0    50   Input ~ 0
+SPI3_MOSI
+Text HLabel 7850 4150 0    50   Input ~ 0
+I2C1_EN
+Text HLabel 7850 3650 0    50   Input ~ 0
+ABORT_1
+Text HLabel 7850 3750 0    50   Input ~ 0
+ABORT_2
+Text HLabel 7850 3250 0    50   Input ~ 0
+SWDIO
+Text HLabel 7850 3350 0    50   Input ~ 0
+SWCLK
 $EndSCHEMATC
