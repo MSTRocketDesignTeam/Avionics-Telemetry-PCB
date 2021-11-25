@@ -482,4 +482,12 @@ Text HLabel 5550 4450 0    50   Input ~ 0
 ~SPI2_CS
 Text HLabel 6750 3650 2    50   Input ~ 0
 ~SPI3_CS
+Wire Notes Line
+	750  2100 3100 2100
+Wire Notes Line
+	3100 2100 3100 1200
+Wire Notes Line
+	3100 1200 750  1200
+Wire Notes Line
+	750  1200 750  2100
 $EndSCHEMATC
