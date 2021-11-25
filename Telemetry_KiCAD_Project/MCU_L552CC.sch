@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -72,7 +72,7 @@ Text HLabel 5550 4650 0    50   Input ~ 0
 SPI2_MISO
 Text HLabel 5550 4750 0    50   Input ~ 0
 SPI2_MOSI
-Text HLabel 5550 4550 0    50   Input ~ 0
+Text HLabel 6750 4550 2    50   Input ~ 0
 DEBUG_SWDIO
 Text HLabel 5550 4150 0    50   Input ~ 0
 I2C1_SDA
@@ -84,7 +84,7 @@ Text HLabel 5550 3650 0    50   Input ~ 0
 SPI3_MISO
 Text HLabel 5550 3550 0    50   Input ~ 0
 SPI3_SCK
-Text HLabel 6750 4550 2    50   Input ~ 0
+Text HLabel 6750 4650 2    50   Input ~ 0
 DEBUG_SWCLK
 Text HLabel 6750 4450 2    50   Input ~ 0
 USB_DP
@@ -474,4 +474,8 @@ Wire Notes Line
 	3800 1400 7500 1400
 Text Notes 3800 1350 0    100  ~ 0
 Microcontroller Chip
+Text HLabel 5550 3250 0    50   Input ~ 0
+EXT_INT1
+Text HLabel 5550 4550 0    50   Input ~ 0
+EXT_INT2
 $EndSCHEMATC
