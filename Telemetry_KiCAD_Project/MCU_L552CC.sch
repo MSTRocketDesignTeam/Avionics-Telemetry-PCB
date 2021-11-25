@@ -212,10 +212,6 @@ Wire Wire Line
 	4800 2550 5550 2550
 Text HLabel 5550 3950 0    50   Input ~ 0
 I2C1_EN
-Text HLabel 6750 3550 2    50   Input ~ 0
-ABORT_1
-Text HLabel 6750 3650 2    50   Input ~ 0
-ABORT_2
 Text Notes 750  1000 0    100  ~ 0
 Microcontroller\nInput Power Filtering
 $Comp
@@ -478,4 +474,12 @@ Text HLabel 5550 3250 0    50   Input ~ 0
 EXT_INT1
 Text HLabel 5550 4550 0    50   Input ~ 0
 EXT_INT2
+Text HLabel 6750 3750 2    50   Input ~ 0
+ABORT_2
+Text HLabel 6750 3550 2    50   Input ~ 0
+ABORT_1
+Text HLabel 5550 4450 0    50   Input ~ 0
+~SPI2_CS
+Text HLabel 6750 3650 2    50   Input ~ 0
+~SPI3_CS
 $EndSCHEMATC
