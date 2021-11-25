@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -257,7 +257,7 @@ Text Label 8150 3700 2    50   ~ 0
 USB_CONN_D+
 Text Label 9150 3700 0    50   ~ 0
 USB_CONN_D-
-Text HLabel 8150 3900 2    50   Input ~ 0
+Text HLabel 9150 3900 2    50   Input ~ 0
 D-
 Text HLabel 8150 3900 0    50   Input ~ 0
 D+
@@ -270,6 +270,17 @@ F 1 "GND" H 8655 4127 50  0000 C CNN
 F 2 "" H 8650 4300 50  0001 C CNN
 F 3 "" H 8650 4300 50  0001 C CNN
 	1    8650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0139
+U 1 1 61A8CA77
+P 2400 4050
+F 0 "#PWR0139" H 2400 3800 50  0001 C CNN
+F 1 "GND" H 2405 3877 50  0000 C CNN
+F 2 "" H 2400 4050 50  0001 C CNN
+F 3 "" H 2400 4050 50  0001 C CNN
+	1    2400 4050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

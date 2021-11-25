@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -16,21 +16,21 @@ Comment4 ""
 $EndDescr
 Text HLabel 6150 1500 0    50   Input ~ 0
 t_mosi
-Text HLabel 6150 1600 0    50   Input ~ 0
+Text HLabel 6150 1600 0    50   Output ~ 0
 t_miso
 Text HLabel 6150 1700 0    50   Input ~ 0
 t_clk
-Text HLabel 6150 1800 0    50   Input ~ 0
+Text HLabel 6150 1800 0    50   BiDi ~ 0
 Alert_scl
-Text HLabel 6150 1900 0    50   Input ~ 0
+Text HLabel 6150 1900 0    50   BiDi ~ 0
 Alert_sda
-Text HLabel 6150 2000 0    50   Input ~ 0
+Text HLabel 6150 2000 0    50   BiDi ~ 0
 Alert_Active
-Text HLabel 6150 2100 0    50   Input ~ 0
+Text HLabel 6150 2100 0    50   BiDi ~ 0
 SWDIO
-Text HLabel 6150 2200 0    50   Input ~ 0
+Text HLabel 6150 2200 0    50   Output ~ 0
 SWCLK
-Text HLabel 5350 2300 0    50   Input ~ 0
+Text HLabel 5350 2300 0    50   Output ~ 0
 NRST
 Text HLabel 6150 2500 0    50   Input ~ 0
 Fire
@@ -94,12 +94,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0128
 U 1 1 619E5D87
-P 5900 4600
-F 0 "#PWR0128" H 5900 4450 50  0001 C CNN
-F 1 "+5V" H 5915 4773 50  0000 C CNN
-F 2 "" H 5900 4600 50  0001 C CNN
-F 3 "" H 5900 4600 50  0001 C CNN
-	1    5900 4600
+P 5900 4550
+F 0 "#PWR0128" H 5900 4400 50  0001 C CNN
+F 1 "+5V" H 5915 4723 50  0000 C CNN
+F 2 "" H 5900 4550 50  0001 C CNN
+F 3 "" H 5900 4550 50  0001 C CNN
+	1    5900 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -160,4 +160,26 @@ Wire Wire Line
 Connection ~ 5450 2300
 Wire Wire Line
 	5450 2300 5450 2350
+Wire Wire Line
+	5900 4550 5900 4600
+NoConn ~ 6150 4500
+NoConn ~ 6150 4400
+NoConn ~ 6150 4300
+NoConn ~ 6150 4200
+NoConn ~ 6150 4100
+NoConn ~ 6150 4000
+NoConn ~ 6150 3900
+NoConn ~ 6150 3800
+NoConn ~ 6150 3700
+NoConn ~ 6150 3600
+NoConn ~ 6150 3500
+NoConn ~ 6150 3400
+NoConn ~ 6150 3300
+NoConn ~ 6150 3200
+NoConn ~ 6150 3100
+NoConn ~ 6150 3000
+NoConn ~ 6150 2900
+NoConn ~ 6150 2800
+NoConn ~ 6150 2700
+NoConn ~ 6150 2400
 $EndSCHEMATC

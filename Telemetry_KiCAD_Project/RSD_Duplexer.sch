@@ -70,10 +70,10 @@ F 3 "" H 5350 3650 50  0001 C CNN
 	1    5350 3650
 	1    0    0    -1  
 $EndComp
-Text HLabel 5850 3750 2    50   Input ~ 0
+Text HLabel 5850 3750 2    50   Output ~ 0
 TX_Out
 Text HLabel 4850 3750 0    50   Input ~ 0
 RX_In
-Text HLabel 5350 4550 3    50   Input ~ 0
+Text HLabel 5350 4550 3    50   BiDi ~ 0
 Antenna
 $EndSCHEMATC

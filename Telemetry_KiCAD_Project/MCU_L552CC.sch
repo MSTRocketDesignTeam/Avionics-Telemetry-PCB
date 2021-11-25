@@ -60,35 +60,31 @@ Wire Wire Line
 	6150 1800 6250 1800
 Text HLabel 5550 2050 0    50   Input ~ 0
 NRST
-Text HLabel 6750 3350 2    50   Input ~ 0
+Text HLabel 6750 3350 2    50   Output ~ 0
 SPI1_SCK
 Text HLabel 6750 3850 2    50   Input ~ 0
 SPI1_MISO
-Text HLabel 6750 3950 2    50   Input ~ 0
+Text HLabel 6750 3950 2    50   Output ~ 0
 SPI1_MOSI
-Text HLabel 5550 4250 0    50   Input ~ 0
+Text HLabel 5550 4250 0    50   Output ~ 0
 SPI2_SCK
 Text HLabel 5550 4650 0    50   Input ~ 0
 SPI2_MISO
-Text HLabel 5550 4750 0    50   Input ~ 0
+Text HLabel 5550 4750 0    50   Output ~ 0
 SPI2_MOSI
-Text HLabel 6750 4550 2    50   Input ~ 0
+Text HLabel 6750 4550 2    50   BiDi ~ 0
 DEBUG_SWDIO
-Text HLabel 5550 4150 0    50   Input ~ 0
-I2C1_SDA
-Text HLabel 5550 3850 0    50   Input ~ 0
+Text HLabel 5550 3850 0    50   BiDi ~ 0
 I2C1_SCL
-Text HLabel 5550 3750 0    50   Input ~ 0
+Text HLabel 5550 3750 0    50   Output ~ 0
 SPI3_MOSI
 Text HLabel 5550 3650 0    50   Input ~ 0
 SPI3_MISO
-Text HLabel 5550 3550 0    50   Input ~ 0
-SPI3_SCK
 Text HLabel 6750 4650 2    50   Input ~ 0
 DEBUG_SWCLK
-Text HLabel 6750 4450 2    50   Input ~ 0
+Text HLabel 6750 4450 2    50   BiDi ~ 0
 USB_DP
-Text HLabel 6750 4350 2    50   Input ~ 0
+Text HLabel 6750 4350 2    50   BiDi ~ 0
 USB_DM
 $Comp
 L power:GND #PWR0132
@@ -210,7 +206,7 @@ Wire Wire Line
 	4400 2450 5550 2450
 Wire Wire Line
 	4800 2550 5550 2550
-Text HLabel 5550 3950 0    50   Input ~ 0
+Text HLabel 5550 3950 0    50   BiDi ~ 0
 I2C1_EN
 Text Notes 750  1000 0    100  ~ 0
 Microcontroller\nInput Power Filtering
@@ -418,13 +414,13 @@ Text HLabel 5550 3250 0    50   Input ~ 0
 EXT_INT1
 Text HLabel 5550 4550 0    50   Input ~ 0
 EXT_INT2
-Text HLabel 6750 3750 2    50   Input ~ 0
+Text HLabel 6750 3750 2    50   Output ~ 0
 ABORT_2
-Text HLabel 6750 3550 2    50   Input ~ 0
+Text HLabel 6750 3550 2    50   Output ~ 0
 ABORT_1
-Text HLabel 5550 4450 0    50   Input ~ 0
+Text HLabel 5550 4450 0    50   Output ~ 0
 ~SPI2_CS
-Text HLabel 6750 3650 2    50   Input ~ 0
+Text HLabel 6750 3650 2    50   Output ~ 0
 ~SPI3_CS
 Wire Notes Line
 	750  2100 3100 2100
@@ -434,4 +430,22 @@ Wire Notes Line
 	3100 1200 750  1200
 Wire Notes Line
 	750  1200 750  2100
+NoConn ~ 5550 2750
+NoConn ~ 5550 2850
+NoConn ~ 5550 2950
+NoConn ~ 5550 3050
+NoConn ~ 5550 3350
+NoConn ~ 5550 3450
+NoConn ~ 5550 4050
+NoConn ~ 5550 4350
+NoConn ~ 6750 4750
+NoConn ~ 6750 4250
+NoConn ~ 6750 4150
+NoConn ~ 6750 4050
+NoConn ~ 6750 3450
+NoConn ~ 6750 3250
+Text HLabel 5550 3550 0    50   Output ~ 0
+SPI3_SCK
+Text HLabel 5550 4150 0    50   BiDi ~ 0
+I2C1_SDA
 $EndSCHEMATC
