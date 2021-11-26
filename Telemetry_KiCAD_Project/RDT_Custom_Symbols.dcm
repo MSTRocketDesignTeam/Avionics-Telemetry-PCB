@@ -12,4 +12,8 @@ K RF GAIN BLOCK
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5541.pdf
 $ENDCMP
 #
+$CMP STM32L562VET
+F https://www.st.com/resource/en/datasheet/stm32l562re.pdf
+$ENDCMP
+#
 #End Doc Library
