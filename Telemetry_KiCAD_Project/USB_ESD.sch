@@ -19,7 +19,7 @@ U 1 1 61A3682F
 P 2500 3450
 F 0 "J3" H 2564 4195 60  0000 C CNN
 F 1 "10118192-0001LF" H 2564 4089 60  0000 C CNN
-F 2 "digikey-footprints:USB_Micro_B_Female_10118192" H 2700 3650 60  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal" H 2700 3650 60  0001 L CNN
 F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 2700 3750 60  0001 L CNN
 F 4 "609-4613-1-ND" H 2700 3850 60  0001 L CNN "Digi-Key_PN"
 F 5 "10118192-0001LF" H 2700 3950 60  0001 L CNN "MPN"
@@ -39,7 +39,7 @@ U 1 1 61A380E7
 P 5500 3250
 F 0 "U6" H 5500 3537 60  0000 C CNN
 F 1 "LM317T" H 5500 3431 60  0000 C CNN
-F 2 "digikey-footprints:TO-220-3" H 5700 3450 60  0001 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 5700 3450 60  0001 L CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf" H 5700 3550 60  0001 L CNN
 F 4 "497-1575-5-ND" H 5700 3650 60  0001 L CNN "Digi-Key_PN"
 F 5 "LM317T" H 5700 3750 60  0001 L CNN "MPN"
