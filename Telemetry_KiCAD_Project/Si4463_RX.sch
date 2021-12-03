@@ -14,20 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RF:Si4463 U2
-U 1 1 619D9E16
-P 6150 3650
-AR Path="/619D9C89/619D9E16" Ref="U2"  Part="1" 
-AR Path="/61A0416A/619D9E16" Ref="U4"  Part="1" 
-F 0 "U4" H 6450 4450 50  0000 C CNN
-F 1 "Si4463" H 6450 4350 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" H 6150 4850 50  0001 C CNN
-F 3 "https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf" H 5850 3550 50  0001 C CNN
-F 4 "https://www.silabs.com/content/usergenerated/asi/cloud/attachments/siliconlabs/en/community/wireless/bluetooth/forum/jcr:content/content/primary/qna/tune_an_rf_pico_boar-pg5F/AN648_Si4X6X%20AND%20EZR32%20HIGH-POWER%20PA%20MATCHING.pdf" H 6150 3650 50  0001 C CNN "Matching Guide"
-	1    6150 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0104
 U 1 1 619DAEC1
 P 6150 4450
@@ -42,10 +28,10 @@ F 3 "" H 6150 4450 50  0001 C CNN
 $EndComp
 $Comp
 L power:+3.3V #PWR0105
-U 1 1 619DB460
+U 1 1 61AFA3CB
 P 6250 2600
-AR Path="/619D9C89/619DB460" Ref="#PWR0105"  Part="1" 
-AR Path="/61A0416A/619DB460" Ref="#PWR0117"  Part="1" 
+AR Path="/619D9C89/61AFA3CB" Ref="#PWR0105"  Part="1" 
+AR Path="/61A0416A/61AFA3CB" Ref="#PWR0117"  Part="1" 
 F 0 "#PWR0117" H 6250 2450 50  0001 C CNN
 F 1 "+3.3V" H 6265 2773 50  0000 C CNN
 F 2 "" H 6250 2600 50  0001 C CNN
@@ -63,10 +49,10 @@ Text HLabel 5750 3850 0    50   Input ~ 0
 SDI
 $Comp
 L Device:Crystal Y1
-U 1 1 619DAC0C
+U 1 1 61AFA3C9
 P 5350 3550
-AR Path="/619D9C89/619DAC0C" Ref="Y1"  Part="1" 
-AR Path="/61A0416A/619DAC0C" Ref="Y2"  Part="1" 
+AR Path="/619D9C89/61AFA3C9" Ref="Y1"  Part="1" 
+AR Path="/61A0416A/61AFA3C9" Ref="Y2"  Part="1" 
 F 0 "Y2" H 5350 3800 50  0000 C CNN
 F 1 "30MHz" H 5350 3700 50  0000 C CNN
 F 2 "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm" H 5350 3550 50  0001 C CNN
@@ -150,10 +136,10 @@ F 3 "" H 4400 2950 50  0001 C CNN
 $EndComp
 $Comp
 L power:GND #PWR0110
-U 1 1 619F9A7C
+U 1 1 61AFA3D0
 P 4900 2950
-AR Path="/619D9C89/619F9A7C" Ref="#PWR0110"  Part="1" 
-AR Path="/61A0416A/619F9A7C" Ref="#PWR0122"  Part="1" 
+AR Path="/619D9C89/61AFA3D0" Ref="#PWR0110"  Part="1" 
+AR Path="/61A0416A/61AFA3D0" Ref="#PWR0122"  Part="1" 
 F 0 "#PWR0122" H 4900 2700 50  0001 C CNN
 F 1 "GND" H 4905 2777 50  0000 C CNN
 F 2 "" H 4900 2950 50  0001 C CNN
@@ -198,13 +184,13 @@ NoConn ~ 6550 3350
 NoConn ~ 5750 3150
 $Comp
 L Device:L_Small L?
-U 1 1 61AC1A40
+U 1 1 61AFA3D2
 P 6750 2900
-AR Path="/619D9C89/61AC1A40" Ref="L?"  Part="1" 
-AR Path="/61A0416A/61AC1A40" Ref="L?"  Part="1" 
-F 0 "L?" H 6706 2854 50  0000 R CNN
+AR Path="/619D9C89/61AFA3D2" Ref="L?"  Part="1" 
+AR Path="/61A0416A/61AFA3D2" Ref="L1"  Part="1" 
+F 0 "L1" H 6706 2854 50  0000 R CNN
 F 1 "100nH" H 6706 2945 50  0000 R CNN
-F 2 "" H 6750 2900 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 6750 2900 50  0001 C CNN
 F 3 "~" H 6750 2900 50  0001 C CNN
 	1    6750 2900
 	-1   0    0    1   
@@ -222,10 +208,10 @@ L Device:L_Small L?
 U 1 1 61AD4DA6
 P 6950 3600
 AR Path="/619D9C89/61AD4DA6" Ref="L?"  Part="1" 
-AR Path="/61A0416A/61AD4DA6" Ref="L?"  Part="1" 
-F 0 "L?" H 7100 3550 50  0000 R CNN
+AR Path="/61A0416A/61AD4DA6" Ref="L2"  Part="1" 
+F 0 "L2" H 7100 3550 50  0000 R CNN
 F 1 "18nH" H 7200 3650 50  0000 R CNN
-F 2 "" H 6950 3600 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 6950 3600 50  0001 C CNN
 F 3 "~" H 6950 3600 50  0001 C CNN
 	1    6950 3600
 	1    0    0    -1  
@@ -239,8 +225,8 @@ L Device:C_Small C?
 U 1 1 61AD69A7
 P 6950 3900
 AR Path="/619D9C89/61AD69A7" Ref="C?"  Part="1" 
-AR Path="/61A0416A/61AD69A7" Ref="C?"  Part="1" 
-F 0 "C?" H 6858 3854 50  0000 R CNN
+AR Path="/61A0416A/61AD69A7" Ref="C4"  Part="1" 
+F 0 "C4" H 6858 3854 50  0000 R CNN
 F 1 "3pF" H 6858 3945 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6950 3900 50  0001 C CNN
 F 3 "~" H 6950 3900 50  0001 C CNN
@@ -255,8 +241,8 @@ L power:GND #PWR?
 U 1 1 61AD75B9
 P 6950 4000
 AR Path="/619D9C89/61AD75B9" Ref="#PWR?"  Part="1" 
-AR Path="/61A0416A/61AD75B9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6950 3750 50  0001 C CNN
+AR Path="/61A0416A/61AD75B9" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 6950 3750 50  0001 C CNN
 F 1 "GND" H 6955 3827 50  0000 C CNN
 F 2 "" H 6950 4000 50  0001 C CNN
 F 3 "" H 6950 4000 50  0001 C CNN
@@ -268,10 +254,10 @@ L Device:L_Small L?
 U 1 1 61AD7AF2
 P 7350 3750
 AR Path="/619D9C89/61AD7AF2" Ref="L?"  Part="1" 
-AR Path="/61A0416A/61AD7AF2" Ref="L?"  Part="1" 
-F 0 "L?" V 7300 3800 50  0000 R CNN
+AR Path="/61A0416A/61AD7AF2" Ref="L3"  Part="1" 
+F 0 "L3" V 7300 3800 50  0000 R CNN
 F 1 "22nH" V 7200 3850 50  0000 R CNN
-F 2 "" H 7350 3750 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 7350 3750 50  0001 C CNN
 F 3 "~" H 7350 3750 50  0001 C CNN
 	1    7350 3750
 	0    -1   -1   0   
@@ -288,23 +274,23 @@ Wire Wire Line
 Wire Wire Line
 	7600 3450 7450 3450
 $Comp
-L Device:CP_Small C?
+L Device:CP_Small C5
 U 1 1 61ADAF5B
 P 7350 3450
-F 0 "C?" V 7575 3450 50  0000 C CNN
+F 0 "C5" V 7575 3450 50  0000 C CNN
 F 1 "1pF" V 7484 3450 50  0000 C CNN
-F 2 "" H 7350 3450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7350 3450 50  0001 C CNN
 F 3 "~" H 7350 3450 50  0001 C CNN
 	1    7350 3450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:CP_Small C?
+L Device:CP_Small C6
 U 1 1 61ADCBDF
 P 7850 3450
-F 0 "C?" V 8075 3450 50  0000 C CNN
+F 0 "C6" V 8075 3450 50  0000 C CNN
 F 1 "DC_Blocking" V 7984 3450 50  0000 C CNN
-F 2 "" H 7850 3450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7850 3450 50  0001 C CNN
 F 3 "~" H 7850 3450 50  0001 C CNN
 	1    7850 3450
 	0    -1   -1   0   
@@ -313,12 +299,12 @@ Wire Wire Line
 	7600 3450 7750 3450
 Connection ~ 7600 3450
 $Comp
-L Device:CP_Small C?
+L Device:CP_Small C7
 U 1 1 61ADE208
 P 8400 3650
-F 0 "C?" H 8488 3696 50  0000 L CNN
+F 0 "C7" H 8488 3696 50  0000 L CNN
 F 1 "4.3pF" H 8488 3605 50  0000 L CNN
-F 2 "" H 8400 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8400 3650 50  0001 C CNN
 F 3 "~" H 8400 3650 50  0001 C CNN
 	1    8400 3650
 	1    0    0    -1  
@@ -332,10 +318,10 @@ L Device:L_Small L?
 U 1 1 61ADF4C6
 P 8750 3450
 AR Path="/619D9C89/61ADF4C6" Ref="L?"  Part="1" 
-AR Path="/61A0416A/61ADF4C6" Ref="L?"  Part="1" 
-F 0 "L?" V 8700 3500 50  0000 R CNN
+AR Path="/61A0416A/61ADF4C6" Ref="L4"  Part="1" 
+F 0 "L4" V 8700 3500 50  0000 R CNN
 F 1 "8.2nH" V 8600 3550 50  0000 R CNN
-F 2 "" H 8750 3450 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 8750 3450 50  0001 C CNN
 F 3 "~" H 8750 3450 50  0001 C CNN
 	1    8750 3450
 	0    -1   -1   0   
@@ -348,8 +334,8 @@ L power:GND #PWR?
 U 1 1 61AE08E5
 P 8400 3750
 AR Path="/619D9C89/61AE08E5" Ref="#PWR?"  Part="1" 
-AR Path="/61A0416A/61AE08E5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8400 3500 50  0001 C CNN
+AR Path="/61A0416A/61AE08E5" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 8400 3500 50  0001 C CNN
 F 1 "GND" H 8405 3577 50  0000 C CNN
 F 2 "" H 8400 3750 50  0001 C CNN
 F 3 "" H 8400 3750 50  0001 C CNN
@@ -357,12 +343,12 @@ F 3 "" H 8400 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C?
+L Device:CP_Small C8
 U 1 1 61AE0EE4
 P 9000 3650
-F 0 "C?" H 9088 3696 50  0000 L CNN
+F 0 "C8" H 9088 3696 50  0000 L CNN
 F 1 "4.3pF" H 9088 3605 50  0000 L CNN
-F 2 "" H 9000 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9000 3650 50  0001 C CNN
 F 3 "~" H 9000 3650 50  0001 C CNN
 	1    9000 3650
 	1    0    0    -1  
@@ -376,8 +362,8 @@ L power:GND #PWR?
 U 1 1 61AE1D40
 P 9000 3750
 AR Path="/619D9C89/61AE1D40" Ref="#PWR?"  Part="1" 
-AR Path="/61A0416A/61AE1D40" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9000 3500 50  0001 C CNN
+AR Path="/61A0416A/61AE1D40" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 9000 3500 50  0001 C CNN
 F 1 "GND" H 9005 3577 50  0000 C CNN
 F 2 "" H 9000 3750 50  0001 C CNN
 F 3 "" H 9000 3750 50  0001 C CNN
@@ -412,8 +398,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 3650 6550 3650
 Wire Wire Line
-	6700 3750 6950 3750
-Wire Wire Line
 	6550 3550 6700 3550
 Wire Wire Line
 	6700 3550 6700 3450
@@ -423,4 +407,20 @@ Wire Wire Line
 	6550 3150 6750 3150
 Wire Wire Line
 	6750 3150 6750 3000
+Wire Wire Line
+	6700 3750 6950 3750
+$Comp
+L RF:Si4463 U2
+U 1 1 61AFA3C8
+P 6150 3650
+AR Path="/619D9C89/61AFA3C8" Ref="U2"  Part="1" 
+AR Path="/61A0416A/61AFA3C8" Ref="U4"  Part="1" 
+F 0 "U4" H 6450 4450 50  0000 C CNN
+F 1 "Si4463" H 6450 4350 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" H 6150 4850 50  0001 C CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf" H 5850 3550 50  0001 C CNN
+F 4 "https://www.silabs.com/content/usergenerated/asi/cloud/attachments/siliconlabs/en/community/wireless/bluetooth/forum/jcr:content/content/primary/qna/tune_an_rf_pico_boar-pg5F/AN648_Si4X6X%20AND%20EZR32%20HIGH-POWER%20PA%20MATCHING.pdf" H 6150 3650 50  0001 C CNN "Matching Guide"
+	1    6150 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
