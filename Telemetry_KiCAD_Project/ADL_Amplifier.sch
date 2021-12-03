@@ -74,7 +74,7 @@ U 1 1 619FB6E9
 P 3850 2850
 F 0 "U3" H 4150 3015 50  0000 C CNN
 F 1 "ADL5521" H 4150 2924 50  0000 C CNN
-F 2 "Package_CSP:Analog_LFCSP-8-1EP_3x3mm_P0.5mm_EP1.53x1.85mm" H 4150 3100 50  0001 C CNN
+F 2 "Package_CSP:LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm" H 4150 3100 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5521.pdf" H 3850 2850 50  0001 C CNN
 	1    3850 2850
 	1    0    0    -1  
