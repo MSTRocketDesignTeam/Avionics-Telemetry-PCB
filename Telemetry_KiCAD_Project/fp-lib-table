@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name RDT_Custom_Footprints)(type KiCad)(uri ${KIPRJMOD}/RDT_Custom_Footprints.pretty)(options "")(descr ""))
+)

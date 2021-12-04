@@ -182,23 +182,6 @@ NoConn ~ 6550 4050
 NoConn ~ 6550 4150
 NoConn ~ 6550 3350
 NoConn ~ 5750 3150
-$Comp
-L Device:L_Small L?
-U 1 1 61AFA3D2
-P 6750 2900
-AR Path="/619D9C89/61AFA3D2" Ref="L?"  Part="1" 
-AR Path="/61A0416A/61AFA3D2" Ref="L1"  Part="1" 
-F 0 "L1" H 6706 2854 50  0000 R CNN
-F 1 "100nH" H 6706 2945 50  0000 R CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 6750 2900 50  0001 C CNN
-F 3 "~" H 6750 2900 50  0001 C CNN
-	1    6750 2900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6750 2800 6750 2700
-Wire Wire Line
-	6750 2700 6250 2700
 Text HLabel 9550 3450 2    50   Output ~ 0
 RF_Out
 Text Notes 4650 2600 0    50   ~ 0
@@ -404,10 +387,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 3450 6950 3450
 Wire Wire Line
-	6550 3150 6750 3150
-Wire Wire Line
-	6750 3150 6750 3000
-Wire Wire Line
 	6700 3750 6950 3750
 $Comp
 L RF:Si4463 U2
@@ -423,4 +402,5 @@ F 4 "https://www.silabs.com/content/usergenerated/asi/cloud/attachments/siliconl
 	1    6150 3650
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6550 3150
 $EndSCHEMATC
