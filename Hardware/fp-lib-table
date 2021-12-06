@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name RDT_Custom_Footprints)(type KiCad)(uri ${KIPRJMOD}/RDT_Custom_Footprints.pretty)(options "")(descr ""))
-  (lib (name Custom_Graphics)(type KiCad)(uri ${KIPRJMOD}/Graphics.pretty)(options "")(descr ""))
+  (lib (name RDT_Custom_Footprints)(type KiCad)(uri ${KIPRJMOD}/LIBRARIES/RDT_Custom_Footprints.pretty)(options "")(descr ""))
+  (lib (name Custom_Graphics)(type KiCad)(uri ${KIPRJMOD}/LIBRARIES/Graphics.pretty)(options "")(descr ""))
 )
