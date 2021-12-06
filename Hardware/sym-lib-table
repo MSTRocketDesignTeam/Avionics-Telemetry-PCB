@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name RDT_Custom_Symbols)(type Legacy)(uri ${KIPRJMOD}/LIBRARIES/RDT_Custom_Symbols.lib)(options "")(descr ""))
+  (lib (name Telemetry_KiCAD_Project-rescue)(type Legacy)(uri ${KIPRJMOD}/LIBRARIES/Telemetry_KiCAD_Project-rescue.lib)(options "")(descr ""))
+)
