@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -350,10 +350,10 @@ RF_Out
 Text Notes 4650 2600 0    50   ~ 0
 Chip acting in TX configuration
 $Comp
-L Device:CP_Small C?
+L Device:CP_Small C6
 U 1 1 61AE96AB
 P 8750 3350
-F 0 "C?" H 8838 3396 50  0000 L CNN
+F 0 "C6" H 8838 3396 50  0000 L CNN
 F 1 "3.3pF" H 8838 3305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8750 3350 50  0001 C CNN
 F 3 "~" H 8750 3350 50  0001 C CNN
@@ -361,10 +361,10 @@ F 3 "~" H 8750 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C?
+L Device:CP_Small C7
 U 1 1 61AEA802
 P 9200 3350
-F 0 "C?" H 9288 3396 50  0000 L CNN
+F 0 "C7" H 9288 3396 50  0000 L CNN
 F 1 "3.3pF" H 9288 3305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9200 3350 50  0001 C CNN
 F 3 "~" H 9200 3350 50  0001 C CNN
@@ -372,10 +372,10 @@ F 3 "~" H 9200 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C?
+L Device:CP_Small C5
 U 1 1 61AEACA0
 P 7250 3150
-F 0 "C?" V 7475 3150 50  0000 C CNN
+F 0 "C5" V 7475 3150 50  0000 C CNN
 F 1 "4.7pF" V 7384 3150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7250 3150 50  0001 C CNN
 F 3 "~" H 7250 3150 50  0001 C CNN
