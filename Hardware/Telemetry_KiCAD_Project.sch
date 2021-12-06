@@ -36,8 +36,6 @@ F 3 "" H 9700 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9500 3450 9350 3450
-Wire Wire Line
 	7050 2600 7200 2600
 Wire Wire Line
 	8650 3300 8350 3300
@@ -270,12 +268,12 @@ F2 "D-" I L 6050 4800 50
 F3 "D+" I L 6050 4650 50 
 $EndSheet
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP1
 U 1 1 61B27F03
 P 2050 2250
-F 0 "TP?" V 2143 2250 50  0000 C CNN
+F 0 "TP1" V 2143 2250 50  0000 C CNN
 F 1 "TestPoint_Small" H 2098 2205 50  0001 L CNN
-F 2 "" H 2250 2250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 2250 2250 50  0001 C CNN
 F 3 "~" H 2250 2250 50  0001 C CNN
 	1    2050 2250
 	0    -1   -1   0   
@@ -284,12 +282,12 @@ Connection ~ 2050 2250
 Wire Wire Line
 	2050 2250 1250 2250
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP2
 U 1 1 61B2879B
 P 2050 2400
-F 0 "TP?" V 2143 2400 50  0000 C CNN
+F 0 "TP2" V 2143 2400 50  0000 C CNN
 F 1 "TestPoint_Small" H 2098 2355 50  0001 L CNN
-F 2 "" H 2250 2400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 2250 2400 50  0001 C CNN
 F 3 "~" H 2250 2400 50  0001 C CNN
 	1    2050 2400
 	0    -1   -1   0   
@@ -298,12 +296,12 @@ Connection ~ 2050 2400
 Wire Wire Line
 	2050 2400 3050 2400
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP3
 U 1 1 61B289AC
 P 2050 2550
-F 0 "TP?" V 2143 2550 50  0000 C CNN
+F 0 "TP3" V 2143 2550 50  0000 C CNN
 F 1 "TestPoint_Small" H 2098 2505 50  0001 L CNN
-F 2 "" H 2250 2550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 2250 2550 50  0001 C CNN
 F 3 "~" H 2250 2550 50  0001 C CNN
 	1    2050 2550
 	0    -1   -1   0   
@@ -312,12 +310,12 @@ Connection ~ 2050 2550
 Wire Wire Line
 	2050 2550 1250 2550
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP4
 U 1 1 61B28C26
 P 2050 2850
-F 0 "TP?" V 2143 2850 50  0000 C CNN
+F 0 "TP4" V 2143 2850 50  0000 C CNN
 F 1 "TestPoint_Small" H 2098 2805 50  0001 L CNN
-F 2 "" H 2250 2850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 2250 2850 50  0001 C CNN
 F 3 "~" H 2250 2850 50  0001 C CNN
 	1    2050 2850
 	0    -1   -1   0   
@@ -326,12 +324,12 @@ Connection ~ 2050 2850
 Wire Wire Line
 	2050 2850 1250 2850
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP5
 U 1 1 61B28F26
 P 2050 3000
-F 0 "TP?" V 2143 3000 50  0000 C CNN
+F 0 "TP5" V 2143 3000 50  0000 C CNN
 F 1 "TestPoint_Small" H 2098 2955 50  0001 L CNN
-F 2 "" H 2250 3000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 2250 3000 50  0001 C CNN
 F 3 "~" H 2250 3000 50  0001 C CNN
 	1    2050 3000
 	0    -1   -1   0   
@@ -340,12 +338,12 @@ Connection ~ 2050 3000
 Wire Wire Line
 	2050 3000 3050 3000
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP6
 U 1 1 61B290CC
 P 2050 3150
-F 0 "TP?" V 2143 3150 50  0000 C CNN
+F 0 "TP6" V 2143 3150 50  0000 C CNN
 F 1 "TestPoint_Small" H 2098 3105 50  0001 L CNN
-F 2 "" H 2250 3150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 2250 3150 50  0001 C CNN
 F 3 "~" H 2250 3150 50  0001 C CNN
 	1    2050 3150
 	0    -1   -1   0   
@@ -354,12 +352,12 @@ Connection ~ 2050 3150
 Wire Wire Line
 	2050 3150 1250 3150
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP7
 U 1 1 61B292A5
 P 2050 3450
-F 0 "TP?" V 2143 3450 50  0000 C CNN
+F 0 "TP7" V 2143 3450 50  0000 C CNN
 F 1 "TestPoint_Small" H 2098 3405 50  0001 L CNN
-F 2 "" H 2250 3450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 2250 3450 50  0001 C CNN
 F 3 "~" H 2250 3450 50  0001 C CNN
 	1    2050 3450
 	0    -1   -1   0   
@@ -368,12 +366,12 @@ Connection ~ 2050 3450
 Wire Wire Line
 	2050 3450 3050 3450
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP8
 U 1 1 61B295E0
 P 2050 3550
-F 0 "TP?" V 2143 3550 50  0000 C CNN
+F 0 "TP8" V 2143 3550 50  0000 C CNN
 F 1 "TestPoint_Small" H 2098 3505 50  0001 L CNN
-F 2 "" H 2250 3550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 2250 3550 50  0001 C CNN
 F 3 "~" H 2250 3550 50  0001 C CNN
 	1    2050 3550
 	0    -1   -1   0   
@@ -382,12 +380,12 @@ Connection ~ 2050 3550
 Wire Wire Line
 	2050 3550 1250 3550
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP9
 U 1 1 61B297B7
 P 2050 3950
-F 0 "TP?" V 2143 3950 50  0000 C CNN
+F 0 "TP9" V 2143 3950 50  0000 C CNN
 F 1 "TestPoint_Small" H 2098 3905 50  0001 L CNN
-F 2 "" H 2250 3950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 2250 3950 50  0001 C CNN
 F 3 "~" H 2250 3950 50  0001 C CNN
 	1    2050 3950
 	0    -1   -1   0   
@@ -396,12 +394,12 @@ Connection ~ 2050 3950
 Wire Wire Line
 	2050 3950 1250 3950
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP10
 U 1 1 61B29BBA
 P 2050 4100
-F 0 "TP?" V 2143 4100 50  0000 C CNN
+F 0 "TP10" V 2143 4100 50  0000 C CNN
 F 1 "TestPoint_Small" H 2098 4055 50  0001 L CNN
-F 2 "" H 2250 4100 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 2250 4100 50  0001 C CNN
 F 3 "~" H 2250 4100 50  0001 C CNN
 	1    2050 4100
 	0    -1   -1   0   
@@ -410,12 +408,12 @@ Connection ~ 2050 4100
 Wire Wire Line
 	2050 4100 1250 4100
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP11
 U 1 1 61B29DB0
 P 2050 4250
-F 0 "TP?" V 2143 4250 50  0000 C CNN
+F 0 "TP11" V 2143 4250 50  0000 C CNN
 F 1 "TestPoint_Small" H 2098 4205 50  0001 L CNN
-F 2 "" H 2250 4250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 2250 4250 50  0001 C CNN
 F 3 "~" H 2250 4250 50  0001 C CNN
 	1    2050 4250
 	0    -1   -1   0   
@@ -424,12 +422,12 @@ Connection ~ 2050 4250
 Wire Wire Line
 	2050 4250 3050 4250
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP12
 U 1 1 61B29FA1
 P 5200 4650
-F 0 "TP?" V 5293 4650 50  0000 C CNN
+F 0 "TP12" V 5293 4650 50  0000 C CNN
 F 1 "TestPoint_Small" H 5248 4605 50  0001 L CNN
-F 2 "" H 5400 4650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5400 4650 50  0001 C CNN
 F 3 "~" H 5400 4650 50  0001 C CNN
 	1    5200 4650
 	0    -1   -1   0   
@@ -438,12 +436,12 @@ Connection ~ 5200 4650
 Wire Wire Line
 	5200 4650 4750 4650
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP13
 U 1 1 61B2AAA6
 P 5200 4800
-F 0 "TP?" V 5293 4800 50  0000 C CNN
+F 0 "TP13" V 5293 4800 50  0000 C CNN
 F 1 "TestPoint_Small" H 5248 4755 50  0001 L CNN
-F 2 "" H 5400 4800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5400 4800 50  0001 C CNN
 F 3 "~" H 5400 4800 50  0001 C CNN
 	1    5200 4800
 	0    -1   -1   0   
@@ -452,111 +450,111 @@ Connection ~ 5200 4800
 Wire Wire Line
 	5200 4800 6050 4800
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP14
 U 1 1 61B36DA7
 P 5700 2350
-F 0 "TP?" V 5793 2350 50  0000 C CNN
+F 0 "TP14" V 5793 2350 50  0000 C CNN
 F 1 "TestPoint_Small" H 5748 2305 50  0001 L CNN
-F 2 "" H 5900 2350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5900 2350 50  0001 C CNN
 F 3 "~" H 5900 2350 50  0001 C CNN
 	1    5700 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP15
 U 1 1 61B37979
 P 5700 2500
-F 0 "TP?" V 5793 2500 50  0000 C CNN
+F 0 "TP15" V 5793 2500 50  0000 C CNN
 F 1 "TestPoint_Small" H 5748 2455 50  0001 L CNN
-F 2 "" H 5900 2500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5900 2500 50  0001 C CNN
 F 3 "~" H 5900 2500 50  0001 C CNN
 	1    5700 2500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP16
 U 1 1 61B37C5C
 P 5700 2650
-F 0 "TP?" V 5793 2650 50  0000 C CNN
+F 0 "TP16" V 5793 2650 50  0000 C CNN
 F 1 "TestPoint_Small" H 5748 2605 50  0001 L CNN
-F 2 "" H 5900 2650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5900 2650 50  0001 C CNN
 F 3 "~" H 5900 2650 50  0001 C CNN
 	1    5700 2650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP17
 U 1 1 61B37EFF
 P 5700 2800
-F 0 "TP?" V 5793 2800 50  0000 C CNN
+F 0 "TP17" V 5793 2800 50  0000 C CNN
 F 1 "TestPoint_Small" H 5748 2755 50  0001 L CNN
-F 2 "" H 5900 2800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5900 2800 50  0001 C CNN
 F 3 "~" H 5900 2800 50  0001 C CNN
 	1    5700 2800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP18
 U 1 1 61B3819B
 P 5700 2950
-F 0 "TP?" V 5793 2950 50  0000 C CNN
+F 0 "TP18" V 5793 2950 50  0000 C CNN
 F 1 "TestPoint_Small" H 5748 2905 50  0001 L CNN
-F 2 "" H 5900 2950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5900 2950 50  0001 C CNN
 F 3 "~" H 5900 2950 50  0001 C CNN
 	1    5700 2950
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP19
 U 1 1 61B38444
 P 5700 3500
-F 0 "TP?" V 5793 3500 50  0000 C CNN
+F 0 "TP19" V 5793 3500 50  0000 C CNN
 F 1 "TestPoint_Small" H 5748 3455 50  0001 L CNN
-F 2 "" H 5900 3500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5900 3500 50  0001 C CNN
 F 3 "~" H 5900 3500 50  0001 C CNN
 	1    5700 3500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP20
 U 1 1 61B387BF
 P 5700 3650
-F 0 "TP?" V 5793 3650 50  0000 C CNN
+F 0 "TP20" V 5793 3650 50  0000 C CNN
 F 1 "TestPoint_Small" H 5748 3605 50  0001 L CNN
-F 2 "" H 5900 3650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5900 3650 50  0001 C CNN
 F 3 "~" H 5900 3650 50  0001 C CNN
 	1    5700 3650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP21
 U 1 1 61B38B12
 P 5700 3800
-F 0 "TP?" V 5793 3800 50  0000 C CNN
+F 0 "TP21" V 5793 3800 50  0000 C CNN
 F 1 "TestPoint_Small" H 5748 3755 50  0001 L CNN
-F 2 "" H 5900 3800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5900 3800 50  0001 C CNN
 F 3 "~" H 5900 3800 50  0001 C CNN
 	1    5700 3800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP22
 U 1 1 61B38D65
 P 5700 3950
-F 0 "TP?" V 5793 3950 50  0000 C CNN
+F 0 "TP22" V 5793 3950 50  0000 C CNN
 F 1 "TestPoint_Small" H 5748 3905 50  0001 L CNN
-F 2 "" H 5900 3950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5900 3950 50  0001 C CNN
 F 3 "~" H 5900 3950 50  0001 C CNN
 	1    5700 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP23
 U 1 1 61B38FA0
 P 5700 4100
-F 0 "TP?" V 5793 4100 50  0000 C CNN
+F 0 "TP23" V 5793 4100 50  0000 C CNN
 F 1 "TestPoint_Small" H 5748 4055 50  0001 L CNN
-F 2 "" H 5900 4100 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5900 4100 50  0001 C CNN
 F 3 "~" H 5900 4100 50  0001 C CNN
 	1    5700 4100
 	0    -1   -1   0   
@@ -637,12 +635,12 @@ Wire Bus Line
 Wire Bus Line
 	5550 3050 5550 4000
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP24
 U 1 1 61BE7E5C
 P 7200 2600
-F 0 "TP?" V 7293 2600 50  0000 C CNN
+F 0 "TP24" V 7293 2600 50  0000 C CNN
 F 1 "TestPoint_Small" H 7248 2555 50  0001 L CNN
-F 2 "" H 7400 2600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7400 2600 50  0001 C CNN
 F 3 "~" H 7400 2600 50  0001 C CNN
 	1    7200 2600
 	0    -1   -1   0   
@@ -651,12 +649,12 @@ Connection ~ 7200 2600
 Wire Wire Line
 	7200 2600 7400 2600
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP25
 U 1 1 61BE8464
 P 7200 3750
-F 0 "TP?" V 7293 3750 50  0000 C CNN
+F 0 "TP25" V 7293 3750 50  0000 C CNN
 F 1 "TestPoint_Small" H 7248 3705 50  0001 L CNN
-F 2 "" H 7400 3750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7400 3750 50  0001 C CNN
 F 3 "~" H 7400 3750 50  0001 C CNN
 	1    7200 3750
 	0    -1   -1   0   
@@ -664,18 +662,6 @@ $EndComp
 Connection ~ 7200 3750
 Wire Wire Line
 	7200 3750 7050 3750
-$Comp
-L Connector:TestPoint_Small TP?
-U 1 1 61BE89BE
-P 9350 3450
-F 0 "TP?" V 9443 3450 50  0000 C CNN
-F 1 "TestPoint_Small" H 9398 3405 50  0001 L CNN
-F 2 "" H 9550 3450 50  0001 C CNN
-F 3 "~" H 9550 3450 50  0001 C CNN
-	1    9350 3450
-	0    -1   -1   0   
-$EndComp
-Connection ~ 9350 3450
 Wire Wire Line
-	9350 3450 9150 3450
+	9150 3450 9500 3450
 $EndSCHEMATC
