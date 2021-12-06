@@ -8,6 +8,8 @@
 *.kicad_pcb-bak
 *.sch-bak
 *~
+$GIT_DIR/Hardware/COMPONENT_SHEETS/*.pro
+
 _autosave-*
 *.tmp
 *-save.pro
