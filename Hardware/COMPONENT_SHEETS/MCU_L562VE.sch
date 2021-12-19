@@ -601,7 +601,7 @@ NoConn ~ 2050 4500
 NoConn ~ 2050 4600
 NoConn ~ 2050 4700
 NoConn ~ 2050 4800
-NoConn ~ 2050 5100
+NoConn ~ 3850 5700
 NoConn ~ 2050 5200
 NoConn ~ 2050 5300
 NoConn ~ 2050 5400
@@ -636,13 +636,13 @@ NoConn ~ 3850 6300
 NoConn ~ 3850 6400
 NoConn ~ 3850 6500
 NoConn ~ 3850 4000
-Text HLabel 2050 5900 0    50   Input ~ 0
+Text HLabel 2050 5800 0    50   Input ~ 0
 TX_RST
 Text HLabel 3850 3100 2    50   Input ~ 0
 RX_RST
-NoConn ~ 2050 5800
-Text HLabel 3850 5700 2    50   Input ~ 0
+Text HLabel 2050 5100 0    50   Input ~ 0
 EXT_INT2
-Text HLabel 3850 5600 2    50   Input ~ 0
+Text HLabel 2050 5900 0    50   Input ~ 0
 EXT_INT1
+NoConn ~ 3850 5600
 $EndSCHEMATC

@@ -208,67 +208,45 @@ Wire Wire Line
 Wire Wire Line
 	7050 3900 8350 3900
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J1
-U 1 1 61BF0412
-P 4250 950
-F 0 "J1" H 4300 1267 50  0000 C CNN
-F 1 "TX SPI Debug" H 4300 1176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4250 950 50  0001 C CNN
-F 3 "~" H 4250 950 50  0001 C CNN
-	1    4250 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J2
+L Connector_Generic:Conn_02x04_Odd_Even J2
 U 1 1 61BF15AF
 P 5750 950
 F 0 "J2" H 5800 1267 50  0000 C CNN
 F 1 "RX SPI Debug" H 5800 1176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5750 950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 5750 950 50  0001 C CNN
 F 3 "~" H 5750 950 50  0001 C CNN
 	1    5750 950 
 	1    0    0    -1  
 $EndComp
-Text Label 4050 850  2    50   ~ 0
-~TX_SEL
-Text Label 4050 950  2    50   ~ 0
-~TX_IRQ
-Text Label 4050 1050 2    50   ~ 0
-TX_SDO
 Text Label 4550 850  0    50   ~ 0
-TX_SDI
+~TX_SEL
+Text Label 4550 1050 0    50   ~ 0
+~TX_IRQ
 Text Label 4550 950  0    50   ~ 0
+TX_SDO
+Text Label 4050 950  2    50   ~ 0
+TX_SDI
+Text Label 4050 1050 2    50   ~ 0
 TX_SCL
-$Comp
-L power:GND #PWR01
-U 1 1 61BF6E76
-P 4550 1050
-F 0 "#PWR01" H 4550 800 50  0001 C CNN
-F 1 "GND" H 4555 877 50  0000 C CNN
-F 2 "" H 4550 1050 50  0001 C CNN
-F 3 "" H 4550 1050 50  0001 C CNN
-	1    4550 1050
-	1    0    0    -1  
-$EndComp
-Text Label 5550 850  2    50   ~ 0
-~RX_SEL
-Text Label 5550 950  2    50   ~ 0
-~RX_IRQ
-Text Label 5550 1050 2    50   ~ 0
-RX_SDO
 Text Label 6050 850  0    50   ~ 0
-RX_SDI
+~RX_SEL
+Text Label 6050 1050 0    50   ~ 0
+~RX_IRQ
 Text Label 6050 950  0    50   ~ 0
+RX_SDO
+Text Label 5550 950  2    50   ~ 0
+RX_SDI
+Text Label 5550 1050 2    50   ~ 0
 RX_SCL
 $Comp
 L power:GND #PWR02
 U 1 1 61BF7DA6
-P 6050 1050
-F 0 "#PWR02" H 6050 800 50  0001 C CNN
-F 1 "GND" H 6055 877 50  0000 C CNN
-F 2 "" H 6050 1050 50  0001 C CNN
-F 3 "" H 6050 1050 50  0001 C CNN
-	1    6050 1050
+P 6050 1150
+F 0 "#PWR02" H 6050 900 50  0001 C CNN
+F 1 "GND" H 6055 977 50  0000 C CNN
+F 2 "" H 6050 1150 50  0001 C CNN
+F 3 "" H 6050 1150 50  0001 C CNN
+	1    6050 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -309,8 +287,6 @@ Entry Wire Line
 	4850 950  4950 1050
 Entry Wire Line
 	6350 850  6450 950 
-Entry Wire Line
-	6350 950  6450 1050
 Wire Bus Line
 	4800 2250 5550 2250
 Wire Bus Line
@@ -458,14 +434,52 @@ Text Label 6250 3100 2    50   ~ 0
 TX_RST
 Text Label 6250 4400 2    50   ~ 0
 RX_RST
-Wire Bus Line
-	6450 950  6450 1400
-Wire Bus Line
-	4950 950  4950 1400
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J1
+U 1 1 61BF0412
+P 4250 950
+F 0 "J1" H 4300 1267 50  0000 C CNN
+F 1 "TX SPI Debug" H 4300 1176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 4250 950 50  0001 C CNN
+F 3 "~" H 4250 950 50  0001 C CNN
+	1    4250 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 61BF6E76
+P 4550 1150
+F 0 "#PWR01" H 4550 900 50  0001 C CNN
+F 1 "GND" H 4555 977 50  0000 C CNN
+F 2 "" H 4550 1150 50  0001 C CNN
+F 3 "" H 4550 1150 50  0001 C CNN
+	1    4550 1150
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	6350 1050 6450 1150
+Entry Wire Line
+	6350 950  6450 1050
+Wire Wire Line
+	6350 1050 6050 1050
+Entry Wire Line
+	4850 1050 4950 1150
+Wire Wire Line
+	4850 1050 4550 1050
+Text Label 5550 850  2    50   ~ 0
+RX_RST
+Text Label 4050 850  2    50   ~ 0
+TX_RST
+NoConn ~ 5550 1150
+NoConn ~ 4050 1150
 Wire Bus Line
 	5150 950  5150 1400
 Wire Bus Line
 	3650 950  3650 1400
+Wire Bus Line
+	6450 950  6450 1400
+Wire Bus Line
+	4950 950  4950 1400
 Wire Bus Line
 	4550 3450 4550 4200
 Wire Bus Line
