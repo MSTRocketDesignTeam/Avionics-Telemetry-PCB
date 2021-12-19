@@ -14,10 +14,10 @@ Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_Coaxial J1
+L Connector:Conn_Coaxial J3
 U 1 1 619FD788
 P 9700 3450
-F 0 "J1" H 9800 3425 50  0000 L CNN
+F 0 "J3" H 9800 3425 50  0000 L CNN
 F 1 "50Ω SMA Connector" H 9800 3334 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132134-11_Vertical" H 9700 3450 50  0001 C CNN
 F 3 " ~" H 9700 3450 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 " ~" H 9700 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR03
 U 1 1 619FE4AD
 P 9700 3650
-F 0 "#PWR0101" H 9700 3400 50  0001 C CNN
+F 0 "#PWR03" H 9700 3400 50  0001 C CNN
 F 1 "GND" H 9705 3477 50  0000 C CNN
 F 2 "" H 9700 3650 50  0001 C CNN
 F 3 "" H 9700 3650 50  0001 C CNN
@@ -303,23 +303,23 @@ Wire Wire Line
 Wire Wire Line
 	7050 3750 8350 3750
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
+L Connector_Generic:Conn_02x03_Odd_Even J1
 U 1 1 61BF0412
 P 4250 950
-F 0 "J?" H 4300 1267 50  0000 C CNN
+F 0 "J1" H 4300 1267 50  0000 C CNN
 F 1 "TX SPI Debug" H 4300 1176 50  0000 C CNN
-F 2 "" H 4250 950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4250 950 50  0001 C CNN
 F 3 "~" H 4250 950 50  0001 C CNN
 	1    4250 950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
+L Connector_Generic:Conn_02x03_Odd_Even J2
 U 1 1 61BF15AF
 P 5750 950
-F 0 "J?" H 5800 1267 50  0000 C CNN
+F 0 "J2" H 5800 1267 50  0000 C CNN
 F 1 "RX SPI Debug" H 5800 1176 50  0000 C CNN
-F 2 "" H 5750 950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 5750 950 50  0001 C CNN
 F 3 "~" H 5750 950 50  0001 C CNN
 	1    5750 950 
 	1    0    0    -1  
@@ -335,10 +335,10 @@ TX_SDI
 Text Label 4550 950  0    50   ~ 0
 TX_SCL
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01
 U 1 1 61BF6E76
 P 4550 1050
-F 0 "#PWR?" H 4550 800 50  0001 C CNN
+F 0 "#PWR01" H 4550 800 50  0001 C CNN
 F 1 "GND" H 4555 877 50  0000 C CNN
 F 2 "" H 4550 1050 50  0001 C CNN
 F 3 "" H 4550 1050 50  0001 C CNN
@@ -356,10 +356,10 @@ RX_SDI
 Text Label 6050 950  0    50   ~ 0
 RX_SCL
 $Comp
-L power:GND #PWR?
+L power:GND #PWR02
 U 1 1 61BF7DA6
 P 6050 1050
-F 0 "#PWR?" H 6050 800 50  0001 C CNN
+F 0 "#PWR02" H 6050 800 50  0001 C CNN
 F 1 "GND" H 6055 877 50  0000 C CNN
 F 2 "" H 6050 1050 50  0001 C CNN
 F 3 "" H 6050 1050 50  0001 C CNN
