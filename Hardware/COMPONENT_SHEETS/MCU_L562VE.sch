@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -564,7 +564,7 @@ AR Path="/619FB6DF/61ADFE82" Ref="Y?"  Part="1"
 AR Path="/61A107A5/61ADFE82" Ref="Y1"  Part="1" 
 F 0 "Y1" H 1350 3475 50  0000 C CNN
 F 1 "32MHz" H 1350 3384 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm" H 1350 3250 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering" H 1350 3250 50  0001 C CNN
 F 3 "~" H 1350 3250 50  0001 C CNN
 	1    1350 3250
 	1    0    0    -1  
@@ -577,12 +577,8 @@ Text HLabel 3850 2500 2    50   Input ~ 0
 ABORT_1
 Text HLabel 3850 2600 2    50   Input ~ 0
 ABORT_2
-Text HLabel 3850 5600 2    50   Input ~ 0
-EXT_INT1
 Text HLabel 2050 1600 0    50   Input ~ 0
 NRST
-Text HLabel 3850 5700 2    50   Input ~ 0
-EXT_INT2
 NoConn ~ 2050 1800
 NoConn ~ 2050 1900
 NoConn ~ 2050 2200
@@ -612,13 +608,11 @@ NoConn ~ 2050 5400
 NoConn ~ 2050 5500
 NoConn ~ 2050 5600
 NoConn ~ 2050 5700
-NoConn ~ 2050 5800
 NoConn ~ 3850 1600
 NoConn ~ 3850 1700
 NoConn ~ 3850 1800
 NoConn ~ 3850 1900
 NoConn ~ 3850 2400
-NoConn ~ 3850 3100
 NoConn ~ 3850 3400
 NoConn ~ 3850 3500
 NoConn ~ 3850 3600
@@ -632,7 +626,6 @@ NoConn ~ 3850 5200
 NoConn ~ 3850 5300
 NoConn ~ 3850 5800
 NoConn ~ 3850 5900
-NoConn ~ 2050 5900
 NoConn ~ 2050 6000
 NoConn ~ 2050 6100
 NoConn ~ 2050 6200
@@ -643,4 +636,13 @@ NoConn ~ 3850 6300
 NoConn ~ 3850 6400
 NoConn ~ 3850 6500
 NoConn ~ 3850 4000
+Text HLabel 2050 5900 0    50   Input ~ 0
+TX_RST
+Text HLabel 3850 3100 2    50   Input ~ 0
+RX_RST
+NoConn ~ 2050 5800
+Text HLabel 3850 5700 2    50   Input ~ 0
+EXT_INT2
+Text HLabel 3850 5600 2    50   Input ~ 0
+EXT_INT1
 $EndSCHEMATC

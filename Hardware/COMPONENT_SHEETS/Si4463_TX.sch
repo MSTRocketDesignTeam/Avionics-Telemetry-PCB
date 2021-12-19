@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -61,29 +61,8 @@ Text HLabel 5750 3950 0    50   Output ~ 0
 SDO
 Text HLabel 5750 3850 0    50   Input ~ 0
 SDI
-$Comp
-L Device:Crystal Y2
-U 1 1 619DAC0C
-P 5350 3550
-AR Path="/619D9C89/619DAC0C" Ref="Y2"  Part="1" 
-AR Path="/61A0416A/619DAC0C" Ref="Y?"  Part="1" 
-F 0 "Y2" H 5350 3800 50  0000 C CNN
-F 1 "30MHz" H 5350 3700 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm" H 5350 3550 50  0001 C CNN
-F 3 "~" H 5350 3550 50  0001 C CNN
-	1    5350 3550
-	-1   0    0    1   
-$EndComp
 Text HLabel 5750 3750 0    50   Input ~ 0
 SCLK
-Wire Wire Line
-	5500 3550 5750 3550
-Wire Wire Line
-	5200 3550 5150 3550
-Wire Wire Line
-	5150 3550 5150 3350
-Wire Wire Line
-	5150 3350 5750 3350
 Wire Wire Line
 	6250 2900 6150 2900
 Wire Wire Line
@@ -195,7 +174,6 @@ NoConn ~ 6550 3950
 NoConn ~ 6550 4050
 NoConn ~ 6550 4150
 NoConn ~ 6550 3350
-NoConn ~ 5750 3150
 $Comp
 L Device:L_Small L1
 U 1 1 61AC1A40
@@ -408,4 +386,94 @@ Text Notes 7100 2800 0    50   ~ 0
 Match
 NoConn ~ 6550 3550
 NoConn ~ 6550 3650
+Text HLabel 5750 3150 0    50   Input ~ 0
+SDN
+Wire Wire Line
+	4750 3700 4750 3350
+Connection ~ 4750 3700
+Wire Wire Line
+	4850 3700 4750 3700
+Wire Wire Line
+	5050 3700 5150 3700
+Wire Wire Line
+	5150 3800 5150 3700
+Wire Wire Line
+	4750 3800 4750 3700
+$Comp
+L Device:C_Small C?
+U 1 1 61BF9C8B
+P 4750 3900
+AR Path="/619FB6DF/61BF9C8B" Ref="C?"  Part="1" 
+AR Path="/61A107A5/61BF9C8B" Ref="C?"  Part="1" 
+AR Path="/619D9C89/61BF9C8B" Ref="C34"  Part="1" 
+F 0 "C34" H 4842 3946 50  0000 L CNN
+F 1 "30pF" H 4842 3855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4750 3900 50  0001 C CNN
+F 3 "~" H 4750 3900 50  0001 C CNN
+	1    4750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61BF9C91
+P 5150 4000
+AR Path="/619FB6DF/61BF9C91" Ref="#PWR?"  Part="1" 
+AR Path="/61A107A5/61BF9C91" Ref="#PWR?"  Part="1" 
+AR Path="/619D9C89/61BF9C91" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 5150 3750 50  0001 C CNN
+F 1 "GND" H 5155 3827 50  0000 C CNN
+F 2 "" H 5150 4000 50  0001 C CNN
+F 3 "" H 5150 4000 50  0001 C CNN
+	1    5150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61BF9C97
+P 4750 4000
+AR Path="/619FB6DF/61BF9C97" Ref="#PWR?"  Part="1" 
+AR Path="/61A107A5/61BF9C97" Ref="#PWR?"  Part="1" 
+AR Path="/619D9C89/61BF9C97" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 4750 3750 50  0001 C CNN
+F 1 "GND" H 4755 3827 50  0000 C CNN
+F 2 "" H 4750 4000 50  0001 C CNN
+F 3 "" H 4750 4000 50  0001 C CNN
+	1    4750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61BF9C9D
+P 5150 3900
+AR Path="/619FB6DF/61BF9C9D" Ref="C?"  Part="1" 
+AR Path="/61A107A5/61BF9C9D" Ref="C?"  Part="1" 
+AR Path="/619D9C89/61BF9C9D" Ref="C35"  Part="1" 
+F 0 "C35" H 5242 3946 50  0000 L CNN
+F 1 "30pF" H 5242 3855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5150 3900 50  0001 C CNN
+F 3 "~" H 5150 3900 50  0001 C CNN
+	1    5150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal_Small Y?
+U 1 1 61BF9CA3
+P 4950 3700
+AR Path="/619FB6DF/61BF9CA3" Ref="Y?"  Part="1" 
+AR Path="/61A107A5/61BF9CA3" Ref="Y?"  Part="1" 
+AR Path="/619D9C89/61BF9CA3" Ref="Y3"  Part="1" 
+F 0 "Y3" H 4950 3925 50  0000 C CNN
+F 1 "32MHz" H 4950 3834 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering" H 4950 3700 50  0001 C CNN
+F 3 "~" H 4950 3700 50  0001 C CNN
+	1    4950 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3700 5150 3550
+Wire Wire Line
+	5150 3550 5750 3550
+Connection ~ 5150 3700
+Wire Wire Line
+	4750 3350 5750 3350
 $EndSCHEMATC
