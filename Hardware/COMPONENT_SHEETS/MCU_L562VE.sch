@@ -636,13 +636,13 @@ NoConn ~ 3850 6400
 NoConn ~ 3850 6500
 NoConn ~ 3850 4000
 Text HLabel 2050 5800 0    50   Input ~ 0
-TX_RST
+SPI2_RST
 Text HLabel 3850 3100 2    50   Input ~ 0
-RX_RST
+SPI3_RST
 Text HLabel 2050 5100 0    50   Input ~ 0
-EXT_INT2
+SPI2_EXT_INT
 Text HLabel 2050 2300 0    50   Input ~ 0
-EXT_INT1
+SPI1_EXT_INT
 NoConn ~ 3850 5600
 NoConn ~ 2050 5900
 $EndSCHEMATC
