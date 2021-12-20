@@ -218,9 +218,9 @@ F 3 "~" H 5750 950 50  0001 C CNN
 	1    5750 950 
 	1    0    0    -1  
 $EndComp
-Text Label 4550 850  0    50   ~ 0
+Text Label 4050 850  2    50   ~ 0
 ~TX_SEL
-Text Label 4550 1050 0    50   ~ 0
+Text Label 4550 850  0    50   ~ 0
 ~TX_IRQ
 Text Label 4550 950  0    50   ~ 0
 TX_SDO
@@ -228,9 +228,9 @@ Text Label 4050 950  2    50   ~ 0
 TX_SDI
 Text Label 4050 1050 2    50   ~ 0
 TX_SCL
-Text Label 6050 850  0    50   ~ 0
+Text Label 5550 850  2    50   ~ 0
 ~RX_SEL
-Text Label 6050 1050 0    50   ~ 0
+Text Label 6050 850  0    50   ~ 0
 ~RX_IRQ
 Text Label 6050 950  0    50   ~ 0
 RX_SDO
@@ -417,9 +417,9 @@ Entry Wire Line
 	4850 1050 4950 1150
 Wire Wire Line
 	4850 1050 4550 1050
-Text Label 5550 850  2    50   ~ 0
+Text Label 6050 1050 0    50   ~ 0
 RX_RST
-Text Label 4050 850  2    50   ~ 0
+Text Label 4550 1050 0    50   ~ 0
 TX_RST
 NoConn ~ 5550 1150
 NoConn ~ 4050 1150
