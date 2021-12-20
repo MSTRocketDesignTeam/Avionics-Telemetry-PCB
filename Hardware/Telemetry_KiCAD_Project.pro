@@ -1,4 +1,4 @@
-update=12/19/2021 4:02:20 PM
+update=12/19/2021 6:53:41 PM
 version=1
 last_client=kicad
 [general]
@@ -276,8 +276,8 @@ dPairViaGap=0.25
 Name=DIFF_90_USB
 Clearance=0.2
 TrackWidth=0.175006
-ViaDiameter=0.8
-ViaDrill=0.4
+ViaDiameter=0.4
+ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.175006

@@ -582,7 +582,6 @@ NRST
 NoConn ~ 2050 1800
 NoConn ~ 2050 1900
 NoConn ~ 2050 2200
-NoConn ~ 2050 2300
 NoConn ~ 2050 2400
 NoConn ~ 2050 2500
 NoConn ~ 2050 3100
@@ -642,7 +641,8 @@ Text HLabel 3850 3100 2    50   Input ~ 0
 RX_RST
 Text HLabel 2050 5100 0    50   Input ~ 0
 EXT_INT2
-Text HLabel 2050 5900 0    50   Input ~ 0
+Text HLabel 2050 2300 0    50   Input ~ 0
 EXT_INT1
 NoConn ~ 3850 5600
+NoConn ~ 2050 5900
 $EndSCHEMATC
