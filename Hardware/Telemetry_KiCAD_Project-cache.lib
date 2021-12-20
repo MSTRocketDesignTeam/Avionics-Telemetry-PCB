@@ -26,11 +26,11 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_DB37_Male
+# Connector_DB37_Male_MountingHoles
 #
-DEF Connector_DB37_Male J 0 40 Y N 1 F N
-F0 "J" 0 2000 50 H V C CNN
-F1 "Connector_DB37_Male" 0 -2000 50 H V C CNN
+DEF Connector_DB37_Male_MountingHoles J 0 40 Y N 1 F N
+F0 "J" 0 2075 50 H V C CNN
+F1 "Connector_DB37_Male_MountingHoles" 0 2000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -112,6 +112,7 @@ P 2 0 1 0 -150 1600 -100 1600 N
 P 2 0 1 0 -150 1700 20 1700 N
 P 2 0 1 0 -150 1800 -100 1800 N
 P 5 0 1 10 -150 1950 150 1775 150 -1775 -150 -1925 -150 1950 f
+X PAD 0 0 -2000 150 U 50 50 1 1 P
 X 1 1 -300 -1800 150 R 50 50 1 1 P
 X 10 10 -300 0 150 R 50 50 1 1 P
 X 11 11 -300 200 150 R 50 50 1 1 P
@@ -152,20 +153,34 @@ X 9 9 -300 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_TestPoint_Small
+# Connector_Generic_Conn_02x04_Odd_Even
 #
-DEF Connector_TestPoint_Small TP 0 30 N N 1 F N
-F0 "TP" 0 150 50 H V C CNN
-F1 "Connector_TestPoint_Small" 0 80 50 H V C CNN
-F2 "" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
+DEF Connector_Generic_Conn_02x04_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "Connector_Generic_Conn_02x04_Odd_Even" 50 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin*
- Test*
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
-C 0 0 20 0 1 0 N
-X 1 1 0 0 0 U 50 50 1 1 P
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -250 1 1 10 f
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 300 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 300 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 300 -100 150 L 50 50 1 1 P
+X Pin_7 7 -200 -200 150 R 50 50 1 1 P
+X Pin_8 8 300 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -204,27 +219,6 @@ P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 100 80 D 50 50 1 1 P
 X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Crystal
-#
-DEF Device_Crystal Y 0 40 N N 1 F N
-F0 "Y" 0 150 50 H V C CNN
-F1 "Device_Crystal" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Crystal*
-$ENDFPLIST
-DRAW
-S -45 100 45 -100 0 1 12 N
-P 2 0 1 0 -100 0 -75 0 N
-P 2 0 1 20 -75 -50 -75 50 N
-P 2 0 1 20 75 -50 75 50 N
-P 2 0 1 0 100 0 75 0 N
-X 1 1 -150 0 50 R 50 50 1 1 P
-X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
