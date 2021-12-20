@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -601,7 +601,6 @@ NoConn ~ 2050 4600
 NoConn ~ 2050 4700
 NoConn ~ 2050 4800
 NoConn ~ 3850 5700
-NoConn ~ 2050 5200
 NoConn ~ 2050 5300
 NoConn ~ 2050 5400
 NoConn ~ 2050 5500
@@ -639,10 +638,11 @@ Text HLabel 2050 5800 0    50   Input ~ 0
 SPI2_RST
 Text HLabel 3850 3100 2    50   Input ~ 0
 SPI3_RST
-Text HLabel 2050 5100 0    50   Input ~ 0
-SPI2_EXT_INT
-Text HLabel 2050 2300 0    50   Input ~ 0
-SPI1_EXT_INT
 NoConn ~ 3850 5600
 NoConn ~ 2050 5900
+Text HLabel 2050 5100 0    50   Input ~ 0
+SPI3_EXT_INT
+NoConn ~ 2050 5200
+Text HLabel 2050 2300 0    50   Input ~ 0
+SPI2_EXT_INT
 $EndSCHEMATC
