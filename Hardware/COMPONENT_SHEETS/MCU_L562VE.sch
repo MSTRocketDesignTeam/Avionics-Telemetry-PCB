@@ -573,9 +573,9 @@ Wire Wire Line
 	1550 3000 2050 3000
 Wire Wire Line
 	2050 2900 1150 2900
-Text HLabel 3850 2500 2    50   Input ~ 0
+Text HLabel 2050 4700 0    50   Input ~ 0
 ABORT_1
-Text HLabel 3850 2600 2    50   Input ~ 0
+Text HLabel 2050 4800 0    50   Input ~ 0
 ABORT_2
 Text HLabel 2050 1600 0    50   Input ~ 0
 NRST
@@ -598,8 +598,8 @@ NoConn ~ 2050 4300
 NoConn ~ 2050 4400
 NoConn ~ 2050 4500
 NoConn ~ 2050 4600
-NoConn ~ 2050 4700
-NoConn ~ 2050 4800
+NoConn ~ 3850 2500
+NoConn ~ 3850 2600
 NoConn ~ 3850 5700
 NoConn ~ 2050 5300
 NoConn ~ 2050 5400
