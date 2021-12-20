@@ -639,10 +639,10 @@ SPI2_RST
 Text HLabel 3850 3100 2    50   Input ~ 0
 SPI3_RST
 NoConn ~ 3850 5600
-NoConn ~ 2050 5900
 Text HLabel 2050 5100 0    50   Input ~ 0
 SPI3_EXT_INT
 NoConn ~ 2050 5200
-Text HLabel 2050 2300 0    50   Input ~ 0
+Text HLabel 2050 5900 0    50   Input ~ 0
 SPI2_EXT_INT
+NoConn ~ 2050 2300
 $EndSCHEMATC
