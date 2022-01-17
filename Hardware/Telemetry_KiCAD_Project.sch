@@ -18,9 +18,9 @@ L Connector:Conn_Coaxial J3
 U 1 1 619FD788
 P 9700 3450
 F 0 "J3" H 9800 3425 50  0000 L CNN
-F 1 "50Ω SMA Connector" H 9800 3334 50  0000 L CNN
+F 1 "Amphenol 132134 SMA Connector" H 9800 3334 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132134-11_Vertical" H 9700 3450 50  0001 C CNN
-F 3 " ~" H 9700 3450 50  0001 C CNN
+F 3 "https://s3-us-west-2.amazonaws.com/catsy.582/C132134.pdf" H 9700 3450 50  0001 C CNN
 	1    9700 3450
 	1    0    0    -1  
 $EndComp
@@ -423,22 +423,6 @@ Text Label 4550 1050 0    50   ~ 0
 TX_RST
 NoConn ~ 5550 1150
 NoConn ~ 4050 1150
-Wire Bus Line
-	5150 950  5150 1400
-Wire Bus Line
-	3650 950  3650 1400
-Wire Bus Line
-	6450 950  6450 1400
-Wire Bus Line
-	4950 950  4950 1400
-Wire Bus Line
-	4550 3450 4550 4200
-Wire Bus Line
-	5550 3450 5550 4300
-Wire Bus Line
-	5550 2250 5550 3000
-Wire Bus Line
-	4550 2250 4550 3050
 $Sheet
 S 750  2100 500  2250
 U 61C225AD
@@ -488,4 +472,20 @@ F25 "SPI3_RST" I R 4100 3150 50
 F26 "SPI2_EXT_INT" I R 4100 4000 50 
 F27 "SPI3_EXT_INT" I R 4100 2850 50 
 $EndSheet
+Wire Bus Line
+	5150 950  5150 1400
+Wire Bus Line
+	3650 950  3650 1400
+Wire Bus Line
+	6450 950  6450 1400
+Wire Bus Line
+	4950 950  4950 1400
+Wire Bus Line
+	4550 3450 4550 4200
+Wire Bus Line
+	5550 3450 5550 4300
+Wire Bus Line
+	5550 2250 5550 3000
+Wire Bus Line
+	4550 2250 4550 3050
 $EndSCHEMATC

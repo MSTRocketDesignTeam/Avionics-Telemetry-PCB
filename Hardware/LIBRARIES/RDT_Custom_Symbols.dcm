@@ -1,5 +1,25 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 16SVP330M
+D Capacitor SMD SVP series 16V 330uF Panasonic 330uF 16 V Polymer Aluminium Electrolytic Capacitor F12, OS-CON Series 2000h 10 x 12.6mm
+F http://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C193.pdf
+$ENDCMP
+#
+$CMP 1N4148W-7-F
+D Diode Switching 150mA 100V 400mW SOD123 Diodes Inc 1N4148W-7-F Switching Diode 100V, 2-Pin SOD-123
+F https://componentsearchengine.com/Datasheets/2/1N4148W-7-F.pdf
+$ENDCMP
+#
+$CMP 35SVPF82M
+D Panasonic 82uF 35 V dc Polymer Aluminium Electrolytic Capacitor E12, OS-CON Series 5000h 8 x 11.9mm
+F http://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C177.pdf
+$ENDCMP
+#
+$CMP 6SVPC330M
+D Panasonic 330uF Polymer Capacitor 6.3V dc, Surface Mount - 6SVPC330M
+F http://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C256.pdf
+$ENDCMP
+#
 $CMP ADL5521
 D 400-4000MHz RF/IF +20dB gain block, LFCSP-8
 K RF GAIN BLOCK
@@ -12,8 +32,88 @@ K RF GAIN BLOCK
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5541.pdf
 $ENDCMP
 #
+$CMP BSS84PH6327XTSA2
+D INFINEON - BSS84PH6327XTSA2 - MOSFET, P, -60V, -0.17A, SOT-23
+F https://componentsearchengine.com/Datasheets/2/BSS84PH6327XTSA2.pdf
+$ENDCMP
+#
+$CMP Barrel_Jack_MountingPin
+D DC Barrel Jack with a mounting pin
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
+$CMP C0805C104M5RACTU
+D Multilayer Ceramic Chip Capacitors
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409909.pdf
+$ENDCMP
+#
+$CMP CGA4C2C0G1H103J060AA
+D TDK 2012 CGA 10nF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-5%
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA20/25667.pdf
+$ENDCMP
+#
+$CMP CSD17501Q5A
+D 30V, N-Channel NexFET&#153; Power MOSFET with 20 Volt Vgs
+F http://www.ti.com/lit/gpn/csd17501q5a
+$ENDCMP
+#
+$CMP L717SDC37P1ACH4F
+D D-Sub Standard Connectors 37P Sz C Std Density Pin Screwlock 4-40
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/l717sdxxxp1ach4f.pdf
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP PJ-102AH
+D DC POWER JACK
+F http://www.cui.com/product/resource/digikeypdf/pj-102ah.pdf
+$ENDCMP
+#
+$CMP SER2915L-103KL
+D COILCRAFT - SER2915L-103KL - INDUCTOR, PWR, 10UH, 30A, 0.1, 20MHZ
+F https://www.coilcraft.com/pdfs/ser2900.pdf
+$ENDCMP
+#
+$CMP SI7232DN-T1-GE3
+D Dual N-Channel (D-S)MOSFET 20V Vds 8V Vgs PowerPAK 1212-8
+F https://www.vishay.com/docs/68986/si7232dn.pdf
+$ENDCMP
+#
+$CMP SRP1270-8R2M
+D Bourns, SRP1270, 1270 Shielded Wire-wound SMD Inductor with a Iron Core, 8.2 uH +/-20% Wire-Wound 17A Idc
+F https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000140448.pdf
+$ENDCMP
+#
 $CMP STM32L562VET
 F https://www.st.com/resource/en/datasheet/stm32l562re.pdf
+$ENDCMP
+#
+$CMP STM32L562VET6Q
+D 32-bit Microcontrollers - MCU 16/32-BITS MICROS
+F https://www.st.com/resource/en/datasheet/stm32l562ve.pdf
+$ENDCMP
+#
+$CMP T93YA103KT20
+D 10k, Through Hole Trimmer Potentiometer 0.5W Top Adjust Vishay, T93
+F https://www.vishay.com/docs/51026/t93.pdf
+$ENDCMP
+#
+$CMP TB002-500-04BE
+D Fixed Terminal Blocks screw type, 5.00 , horizontal, 4 poles, CUI Blue, slotted screw, PCB mount
+F https://componentsearchengine.com/Datasheets/1/TB002-500-04BE.pdf
+$ENDCMP
+#
+$CMP TP124005-2
+D Speakers & Transducers Piezo Transducer
+$ENDCMP
+#
+$CMP WSHP28185L000FEA
+D Current Sense Resistors - SMD 10W .005ohms 1%
+F https://componentsearchengine.com/Datasheets/1/WSHP28185L000FEA.pdf
 $ENDCMP
 #
 #End Doc Library
