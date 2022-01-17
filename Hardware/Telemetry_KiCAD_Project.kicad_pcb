@@ -1771,7 +1771,7 @@
       (net 83 /ADL_Amplifier/RF_Out))
     (pad 8 smd roundrect (at 1.2875 -0.75 270) (size 0.575 0.35) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 72 "Net-(L5-Pad1)"))
-    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm.wrl
+    (model ${KIPRJMOD}/LIBRARIES/RDT_Custom_Footprints.3dshapes/DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
