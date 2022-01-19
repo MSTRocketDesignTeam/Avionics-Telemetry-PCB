@@ -488,91 +488,6 @@ Text HLabel 4850 2300 2    50   Input ~ 0
 SPI1_MOSI
 Text HLabel 4850 3300 2    50   Input ~ 0
 ~SPI1_NSS
-Text Notes 1550 2850 0    50   ~ 0
-CL = 2 * (Cload - Cstray)\nCstray ≈ 20pF, Cstray ≈ 5pF\nCL = 2 * (Cload - 5pF)\nCL = 30pF
-Wire Wire Line
-	2150 3250 2150 2900
-Connection ~ 2150 3250
-Wire Wire Line
-	2250 3250 2150 3250
-Wire Wire Line
-	2550 3250 2550 3000
-Connection ~ 2550 3250
-Wire Wire Line
-	2450 3250 2550 3250
-Wire Wire Line
-	2550 3350 2550 3250
-Wire Wire Line
-	2150 3350 2150 3250
-$Comp
-L Device:C_Small C?
-U 1 1 61ADFE6A
-P 2150 3450
-AR Path="/619FB6DF/61ADFE6A" Ref="C?"  Part="1" 
-AR Path="/61A107A5/61ADFE6A" Ref="C24"  Part="1" 
-F 0 "C24" H 2242 3496 50  0000 L CNN
-F 1 "30pF" H 2242 3405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2150 3450 50  0001 C CNN
-F 3 "~" H 2150 3450 50  0001 C CNN
-	1    2150 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61ADFE70
-P 2550 3550
-AR Path="/619FB6DF/61ADFE70" Ref="#PWR?"  Part="1" 
-AR Path="/61A107A5/61ADFE70" Ref="#PWR047"  Part="1" 
-F 0 "#PWR047" H 2550 3300 50  0001 C CNN
-F 1 "GND" H 2555 3377 50  0000 C CNN
-F 2 "" H 2550 3550 50  0001 C CNN
-F 3 "" H 2550 3550 50  0001 C CNN
-	1    2550 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61ADFE76
-P 2150 3550
-AR Path="/619FB6DF/61ADFE76" Ref="#PWR?"  Part="1" 
-AR Path="/61A107A5/61ADFE76" Ref="#PWR046"  Part="1" 
-F 0 "#PWR046" H 2150 3300 50  0001 C CNN
-F 1 "GND" H 2155 3377 50  0000 C CNN
-F 2 "" H 2150 3550 50  0001 C CNN
-F 3 "" H 2150 3550 50  0001 C CNN
-	1    2150 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 61ADFE7C
-P 2550 3450
-AR Path="/619FB6DF/61ADFE7C" Ref="C?"  Part="1" 
-AR Path="/61A107A5/61ADFE7C" Ref="C25"  Part="1" 
-F 0 "C25" H 2642 3496 50  0000 L CNN
-F 1 "30pF" H 2642 3405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2550 3450 50  0001 C CNN
-F 3 "~" H 2550 3450 50  0001 C CNN
-	1    2550 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Crystal_Small Y?
-U 1 1 61ADFE82
-P 2350 3250
-AR Path="/619FB6DF/61ADFE82" Ref="Y?"  Part="1" 
-AR Path="/61A107A5/61ADFE82" Ref="Y3"  Part="1" 
-F 0 "Y3" H 2350 3475 50  0000 C CNN
-F 1 "32MHz" H 2350 3384 50  0000 C CNN
-F 2 "RDT_Custom_Footprints:XTAL_ABM7-32.000MHZ-D2Y-T" H 2350 3250 50  0001 C CNN
-F 3 "~" H 2350 3250 50  0001 C CNN
-	1    2350 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 3000 3050 3000
-Wire Wire Line
-	3050 2900 2150 2900
 Text HLabel 4850 4300 2    50   Input ~ 0
 ABORT_1
 Text HLabel 4850 4400 2    50   Input ~ 0
@@ -584,7 +499,6 @@ NoConn ~ 3050 1900
 NoConn ~ 3050 2200
 NoConn ~ 3050 2400
 NoConn ~ 3050 2500
-NoConn ~ 3050 3100
 NoConn ~ 3050 3300
 NoConn ~ 3050 3500
 NoConn ~ 3050 3600
@@ -922,4 +836,130 @@ Wire Wire Line
 	2400 1600 3050 1600
 Wire Wire Line
 	2100 1600 2400 1600
+$Comp
+L power:+3.3V #PWR054
+U 1 1 61F7C3C1
+P 2200 3250
+F 0 "#PWR054" H 2200 3100 50  0001 C CNN
+F 1 "+3.3V" H 2215 3423 50  0000 C CNN
+F 2 "" H 2200 3250 50  0001 C CNN
+F 3 "" H 2200 3250 50  0001 C CNN
+	1    2200 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61F7894F
+P 2200 3750
+AR Path="/619FB6DF/61F7894F" Ref="#PWR?"  Part="1" 
+AR Path="/61A107A5/61F7894F" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 2200 3500 50  0001 C CNN
+F 1 "GND" H 2205 3577 50  0000 C CNN
+F 2 "" H 2200 3750 50  0001 C CNN
+F 3 "" H 2200 3750 50  0001 C CNN
+	1    2200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_3_Open JP1
+U 1 1 61F76154
+P 2200 3500
+F 0 "JP1" V 2246 3587 50  0000 L CNN
+F 1 "Debug Jumper" V 2155 3587 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2200 3500 50  0001 C CNN
+F 3 "~" H 2200 3500 50  0001 C CNN
+	1    2200 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 3100 3050 3100
+Wire Wire Line
+	2600 3500 2600 3100
+Wire Wire Line
+	2350 3500 2600 3500
+Wire Wire Line
+	1250 3000 3050 3000
+Wire Wire Line
+	850  2900 3050 2900
+$Comp
+L Device:Crystal_Small Y?
+U 1 1 61ADFE82
+P 1050 3250
+AR Path="/619FB6DF/61ADFE82" Ref="Y?"  Part="1" 
+AR Path="/61A107A5/61ADFE82" Ref="Y3"  Part="1" 
+F 0 "Y3" H 1050 3475 50  0000 C CNN
+F 1 "32MHz" H 1050 3384 50  0000 C CNN
+F 2 "RDT_Custom_Footprints:XTAL_ABM7-32.000MHZ-D2Y-T" H 1050 3250 50  0001 C CNN
+F 3 "~" H 1050 3250 50  0001 C CNN
+	1    1050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61ADFE7C
+P 1250 3450
+AR Path="/619FB6DF/61ADFE7C" Ref="C?"  Part="1" 
+AR Path="/61A107A5/61ADFE7C" Ref="C25"  Part="1" 
+F 0 "C25" H 1342 3496 50  0000 L CNN
+F 1 "30pF" H 1342 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1250 3450 50  0001 C CNN
+F 3 "~" H 1250 3450 50  0001 C CNN
+	1    1250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61ADFE76
+P 850 3550
+AR Path="/619FB6DF/61ADFE76" Ref="#PWR?"  Part="1" 
+AR Path="/61A107A5/61ADFE76" Ref="#PWR046"  Part="1" 
+F 0 "#PWR046" H 850 3300 50  0001 C CNN
+F 1 "GND" H 855 3377 50  0000 C CNN
+F 2 "" H 850 3550 50  0001 C CNN
+F 3 "" H 850 3550 50  0001 C CNN
+	1    850  3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61ADFE70
+P 1250 3550
+AR Path="/619FB6DF/61ADFE70" Ref="#PWR?"  Part="1" 
+AR Path="/61A107A5/61ADFE70" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 1250 3300 50  0001 C CNN
+F 1 "GND" H 1255 3377 50  0000 C CNN
+F 2 "" H 1250 3550 50  0001 C CNN
+F 3 "" H 1250 3550 50  0001 C CNN
+	1    1250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61ADFE6A
+P 850 3450
+AR Path="/619FB6DF/61ADFE6A" Ref="C?"  Part="1" 
+AR Path="/61A107A5/61ADFE6A" Ref="C24"  Part="1" 
+F 0 "C24" H 942 3496 50  0000 L CNN
+F 1 "30pF" H 942 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 850 3450 50  0001 C CNN
+F 3 "~" H 850 3450 50  0001 C CNN
+	1    850  3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  3350 850  3250
+Wire Wire Line
+	1250 3350 1250 3250
+Wire Wire Line
+	1150 3250 1250 3250
+Connection ~ 1250 3250
+Wire Wire Line
+	1250 3250 1250 3000
+Wire Wire Line
+	950  3250 850  3250
+Connection ~ 850  3250
+Wire Wire Line
+	850  3250 850  2900
+Text Notes 850  2850 0    50   ~ 0
+CL = 2 * (Cload - Cstray)\nCstray ≈ 20pF, Cstray ≈ 5pF\nCL = 2 * (Cload - 5pF)\nCL = 30pF
 $EndSCHEMATC
