@@ -577,7 +577,7 @@ Text HLabel 4850 4300 2    50   Input ~ 0
 ABORT_1
 Text HLabel 4850 4400 2    50   Input ~ 0
 ABORT_2
-Text HLabel 3050 1600 0    50   Input ~ 0
+Text HLabel 2100 1600 0    50   Input ~ 0
 NRST
 NoConn ~ 3050 1800
 NoConn ~ 3050 1900
@@ -855,4 +855,71 @@ Wire Wire Line
 	1150 4650 1150 4100
 Wire Wire Line
 	850  4650 850  4000
+$Comp
+L Switch:SW_Push SW1
+U 1 1 61F1A897
+P 2400 1900
+F 0 "SW1" V 2354 2048 50  0000 L CNN
+F 1 "MCU Reset" V 2445 2048 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 2400 2100 50  0001 C CNN
+F 3 "~" H 2400 2100 50  0001 C CNN
+	1    2400 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61F1E582
+P 2100 2100
+AR Path="/61F1E582" Ref="#PWR?"  Part="1" 
+AR Path="/61A437B5/61F1E582" Ref="#PWR?"  Part="1" 
+AR Path="/61C225AD/61F1E582" Ref="#PWR?"  Part="1" 
+AR Path="/61A107A5/61F1E582" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 2100 1850 50  0001 C CNN
+F 1 "GND" H 2105 1927 50  0000 C CNN
+F 2 "" H 2100 2100 50  0001 C CNN
+F 3 "" H 2100 2100 50  0001 C CNN
+	1    2100 2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61F1E588
+P 2100 1900
+AR Path="/61F1E588" Ref="C?"  Part="1" 
+AR Path="/61A437B5/61F1E588" Ref="C?"  Part="1" 
+AR Path="/61C225AD/61F1E588" Ref="C?"  Part="1" 
+AR Path="/61A107A5/61F1E588" Ref="C23"  Part="1" 
+F 0 "C23" H 2192 1946 50  0000 L CNN
+F 1 "100nF" H 2192 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2100 1900 50  0001 C CNN
+F 3 "~" H 2100 1900 50  0001 C CNN
+	1    2100 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61F3D703
+P 2400 2100
+AR Path="/61F3D703" Ref="#PWR?"  Part="1" 
+AR Path="/61A437B5/61F3D703" Ref="#PWR?"  Part="1" 
+AR Path="/61C225AD/61F3D703" Ref="#PWR?"  Part="1" 
+AR Path="/61A107A5/61F3D703" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 2400 1850 50  0001 C CNN
+F 1 "GND" H 2405 1927 50  0000 C CNN
+F 2 "" H 2400 2100 50  0001 C CNN
+F 3 "" H 2400 2100 50  0001 C CNN
+	1    2400 2100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1600 2100 1800
+Wire Wire Line
+	2100 2100 2100 2000
+Wire Wire Line
+	2400 1700 2400 1600
+Connection ~ 2400 1600
+Wire Wire Line
+	2400 1600 3050 1600
+Wire Wire Line
+	2100 1600 2400 1600
 $EndSCHEMATC
