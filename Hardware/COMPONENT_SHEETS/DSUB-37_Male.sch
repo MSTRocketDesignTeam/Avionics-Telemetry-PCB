@@ -29,40 +29,12 @@ Text HLabel 8350 4250 0    50   Input ~ 0
 SWDIO
 Text HLabel 8350 4150 0    50   Input ~ 0
 SWCLK
-Text HLabel 7750 3750 0    50   Input ~ 0
+Text HLabel 8350 3750 0    50   Input ~ 0
 NRST
 Text HLabel 8350 3650 0    50   Input ~ 0
 Fire
 Text HLabel 8350 3550 0    50   Input ~ 0
 Fire_redundant
-$Comp
-L power:GND #PWR?
-U 1 1 61A5558D
-P 7750 4000
-AR Path="/61A5558D" Ref="#PWR?"  Part="1" 
-AR Path="/61A437B5/61A5558D" Ref="#PWR?"  Part="1" 
-AR Path="/61C225AD/61A5558D" Ref="#PWR044"  Part="1" 
-F 0 "#PWR044" H 7750 3750 50  0001 C CNN
-F 1 "GND" H 7755 3827 50  0000 C CNN
-F 2 "" H 7750 4000 50  0001 C CNN
-F 3 "" H 7750 4000 50  0001 C CNN
-	1    7750 4000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 61A55586
-P 7750 3900
-AR Path="/61A55586" Ref="C?"  Part="1" 
-AR Path="/61A437B5/61A55586" Ref="C?"  Part="1" 
-AR Path="/61C225AD/61A55586" Ref="C23"  Part="1" 
-F 0 "C23" H 7842 3946 50  0000 L CNN
-F 1 "100nF" H 7842 3855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7750 3900 50  0001 C CNN
-F 3 "~" H 7750 3900 50  0001 C CNN
-	1    7750 3900
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR039
 U 1 1 61A491E6
@@ -179,8 +151,4 @@ Wire Wire Line
 	7450 4750 8350 4750
 Wire Wire Line
 	7450 4850 8350 4850
-Wire Wire Line
-	7750 3800 7750 3750
-Wire Wire Line
-	7750 3750 8350 3750
 $EndSCHEMATC
