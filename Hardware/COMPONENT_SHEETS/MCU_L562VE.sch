@@ -860,17 +860,6 @@ F 3 "" H 2200 3750 50  0001 C CNN
 	1    2200 3750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Jumper:Jumper_3_Open JP1
-U 1 1 61F76154
-P 2200 3500
-F 0 "JP1" V 2246 3587 50  0000 L CNN
-F 1 "Debug Jumper" V 2155 3587 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2200 3500 50  0001 C CNN
-F 3 "~" H 2200 3500 50  0001 C CNN
-	1    2200 3500
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2600 3100 3050 3100
 Wire Wire Line
@@ -962,4 +951,15 @@ Wire Wire Line
 	850  3250 850  2900
 Text Notes 850  2850 0    50   ~ 0
 CL = 2 * (Cload - Cstray)\nCstray ≈ 20pF, Cstray ≈ 5pF\nCL = 2 * (Cload - 5pF)\nCL = 30pF
+$Comp
+L Jumper:Jumper_3_Open JP1
+U 1 1 61F76154
+P 2200 3500
+F 0 "JP1" V 2246 3587 50  0000 L CNN
+F 1 "Debug Jumper" V 2155 3587 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2200 3500 50  0001 C CNN
+F 3 "~" H 2200 3500 50  0001 C CNN
+	1    2200 3500
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
