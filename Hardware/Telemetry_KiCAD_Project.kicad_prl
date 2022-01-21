@@ -64,7 +64,7 @@
       36
     ],
     "visible_layers": "003feff_80000007",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "Telemetry_KiCAD_Project.kicad_prl",
