@@ -62,7 +62,7 @@
           (stroke (width 0.2032) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start 1.778 0) (mid 0.2221 1.8083) (end -1.778 0.508)
+        (arc (start 1.778 0) (mid 0.222 1.8083) (end -1.778 0.508)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -1246,11 +1246,11 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 12a24e86-2c38-4685-bba9-fff8dddb4cb0)
     )
-    (pin "USB_DP" input (at 104.14 113.03 0)
+    (pin "USB_D+" input (at 104.14 113.03 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid f357ddb5-3f44-43b0-b00d-d64f5c62ba4a)
     )
-    (pin "USB_DM" input (at 104.14 116.84 0)
+    (pin "USB_D-" input (at 104.14 116.84 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 35ef9c4a-35f6-467b-a704-b1d9354880cf)
     )
@@ -1467,12 +1467,6 @@
     (path "/00000000-0000-0000-0000-000061a2ed84/00000000-0000-0000-0000-000061a4867e"
       (reference "#PWR021") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061a2ed84/00000000-0000-0000-0000-000061a45748"
-      (reference "#PWR022") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061a2ed84/00000000-0000-0000-0000-000061a459ef"
-      (reference "#PWR023") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000061a2ed84/00000000-0000-0000-0000-000061a3a807"
       (reference "#PWR024") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -1583,6 +1577,15 @@
     )
     (path "/00000000-0000-0000-0000-000061a107a5/00000000-0000-0000-0000-000061f0271b"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061a2ed84/62c214f9-69e5-4473-9247-07d67610f672"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061a2ed84/55982482-7869-4778-ab3f-3dec7bf36852"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061a2ed84/9241d27b-cee7-4065-b480-439c4f4d64ef"
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061a0416a/00000000-0000-0000-0000-0000619f8bd8"
       (reference "C1") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -1803,8 +1806,8 @@
     (path "/00000000-0000-0000-0000-0000619ee4e3/00000000-0000-0000-0000-0000619f0fb1"
       (reference "U3") (unit 1) (value "RSD-897.500-942.500-1612-TR") (footprint "RDT_Custom_Footprints:RSD-897.500-942.500-1612-TR")
     )
-    (path "/00000000-0000-0000-0000-000061a2ed84/00000000-0000-0000-0000-000061a380e7"
-      (reference "U4") (unit 1) (value "LM317T") (footprint "Package_TO_SOT_SMD:TSOT-23")
+    (path "/00000000-0000-0000-0000-000061a2ed84/9a5e7e18-5e99-4a60-ba18-d8e2fceef78a"
+      (reference "U4") (unit 1) (value "LP38692MPX-ADJ") (footprint "Package_TO_SOT_SMD:SOT-223-5")
     )
     (path "/00000000-0000-0000-0000-000061a2ed84/00000000-0000-0000-0000-000061a51e77"
       (reference "U5") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")

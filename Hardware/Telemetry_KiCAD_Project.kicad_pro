@@ -481,8 +481,6 @@
         "microvia_drill": 0.1,
         "name": "USB_Diff",
         "nets": [
-          "/USB Connector and ESD/D+",
-          "/USB Connector and ESD/D-",
           "/USB Connector and ESD/USB_CONN_D+",
           "/USB Connector and ESD/USB_CONN_D-"
         ],
