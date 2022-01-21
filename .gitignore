@@ -27,4 +27,4 @@ fp-info-cache
 *.xml
 
 # KiCAD Project Backups
-$GIT_DIR/Hardware/Telemetry_KiCAD_Project-backups
+Hardware/Telemetry_KiCAD_Project-backups/
