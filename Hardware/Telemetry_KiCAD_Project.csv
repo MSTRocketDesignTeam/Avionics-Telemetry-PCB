@@ -39,7 +39,7 @@ Comment,Designator,Footprint,LCSC
 "MCU Reset","SW1","Button_Switch_SMD:SW_SPST_PTS645","C2837531 "
 "ADL5521","U2","Package_CSP:LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm",""
 "RSD-897.500-942.500-1612-TR","U3","RDT_Custom_Footprints:RSD-897.500-942.500-1612-TR",""
-"LM317T","U4","Package_TO_SOT_SMD:TSOT-23",""
+"LP38692MPX-ADJ","U4","Package_TO_SOT_SMD:SOT-223-5","C527485"
 "USBLC6-2SC6","U5","Package_TO_SOT_SMD:SOT-23-6","C7519"
 "Si4463","U1,U6","Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias",""
 "STM32L562VET6Q","U7","Package_QFP:LQFP-100_14x14mm_P0.5mm",""
