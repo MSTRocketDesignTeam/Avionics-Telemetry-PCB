@@ -12448,8 +12448,8 @@
       (xy 150.109286 141.97)
     ) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp 00000000-0000-0000-0000-000061e71936))
   (gr_arc (start 160 134.98) (mid 157.071068 142.051068) (end 150 144.98) (layer "F.SilkS") (width 0.1) (tstamp 00000000-0000-0000-0000-000061e71941))
-  (gr_arc (start 157.01 134.98) (mid 154.994768 139.89477) (end 150.109286 141.979999) (layer "F.SilkS") (width 0.12) (tstamp 00000000-0000-0000-0000-000061e71948))
-  (gr_arc (start 90 142.01) (mid 85.08523 139.994768) (end 83.000001 135.109286) (layer "F.SilkS") (width 0.12) (tstamp 00000000-0000-0000-0000-000061e725b6))
+  (gr_arc (start 157.01 134.98) (mid 154.994768 139.894769) (end 150.109286 141.979999) (layer "F.SilkS") (width 0.12) (tstamp 00000000-0000-0000-0000-000061e71948))
+  (gr_arc (start 90 142.01) (mid 85.085231 139.994768) (end 83.000001 135.109286) (layer "F.SilkS") (width 0.12) (tstamp 00000000-0000-0000-0000-000061e725b6))
   (gr_arc (start 89.960111 144.975) (mid 82.915143 142.035247) (end 80 134.980061) (layer "F.SilkS") (width 0.1) (tstamp 00000000-0000-0000-0000-000061e725b7))
   (gr_poly
     (pts
@@ -12527,7 +12527,7 @@
       (xy 79.9581 61.694893)
       (xy 79.9581 61.669892)
     ) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp 19a5a40d-c31a-4b14-b306-06b0a763bddb))
-  (gr_arc (start 150 54.69) (mid 154.91477 56.705232) (end 156.999999 61.590714) (layer "F.SilkS") (width 0.12) (tstamp 2056f16f-2d4a-4f35-8a56-49ab69eeef16))
+  (gr_arc (start 150 54.69) (mid 154.914769 56.705232) (end 156.999999 61.590714) (layer "F.SilkS") (width 0.12) (tstamp 2056f16f-2d4a-4f35-8a56-49ab69eeef16))
   (gr_poly
     (pts
       (xy 150.05 51.73)
@@ -12629,7 +12629,7 @@
       (xy 89.994939 51.725)
       (xy 150.025 51.725)
     ) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp 91a85248-7895-453a-bdbc-36a6edbe91db))
-  (gr_arc (start 82.965 61.725) (mid 84.980232 56.81023) (end 89.865714 54.725001) (layer "F.SilkS") (width 0.12) (tstamp ce5b0dfe-37f0-4d1b-9f56-10ae411d36e6))
+  (gr_arc (start 82.965 61.725) (mid 84.980232 56.810231) (end 89.865714 54.725001) (layer "F.SilkS") (width 0.12) (tstamp ce5b0dfe-37f0-4d1b-9f56-10ae411d36e6))
   (gr_arc (start 80 61.685111) (mid 82.939753 54.640143) (end 89.994939 51.725) (layer "F.SilkS") (width 0.1) (tstamp f352e561-93ae-4eda-af14-a930a36aa74a))
   (gr_line (start 142.131945 133.724515) (end 141.899999 133.731193) (layer "F.Mask") (width 1.6) (tstamp 00000000-0000-0000-0000-000061e36128))
   (gr_line (start 142.592766 133.671228) (end 142.363122 133.704505) (layer "F.Mask") (width 1.6) (tstamp 00000000-0000-0000-0000-000061e36129))
