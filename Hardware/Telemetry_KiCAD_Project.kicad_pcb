@@ -589,6 +589,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -180))
     )
+    (model "${KIPRJMOD}/LIBRARIES/RDT_Custom_Footprints.3dshapes/901-9867-rfx.step"
+      (offset (xyz 0 6 6.25))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
