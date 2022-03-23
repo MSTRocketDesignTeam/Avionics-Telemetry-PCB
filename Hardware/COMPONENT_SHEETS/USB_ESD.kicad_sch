@@ -1244,7 +1244,7 @@
     (uuid 00000000-0000-0000-0000-000061a3a235)
     (property "Reference" "D1" (id 0) (at 119.38 77.343 0))
     (property "Value" "D_Schottky_Small" (id 1) (at 119.38 79.6544 0))
-    (property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (id 2) (at 119.38 82.55 90)
+    (property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (id 2) (at 119.38 82.55 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 119.38 82.55 90)

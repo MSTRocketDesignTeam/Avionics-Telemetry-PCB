@@ -973,10 +973,10 @@
     (property "Reference" "J3" (id 0) (at 248.92 88.265 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Amphenol 132134 SMA Connector" (id 1) (at 248.92 90.5764 0)
+    (property "Value" "Right Angle SMA Female" (id 1) (at 248.92 90.5764 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-11_Vertical" (id 2) (at 246.38 87.63 0)
+    (property "Footprint" "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal" (id 2) (at 246.38 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://s3-us-west-2.amazonaws.com/catsy.582/C132134.pdf" (id 3) (at 246.38 87.63 0)
@@ -1723,7 +1723,7 @@
       (reference "C38") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000061a2ed84/00000000-0000-0000-0000-000061a3a235"
-      (reference "D1") (unit 1) (value "D_Schottky_Small") (footprint "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D1") (unit 1) (value "D_Schottky_Small") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000061a107a5/00000000-0000-0000-0000-000061eaa754"
       (reference "D2") (unit 1) (value "Red") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
@@ -1750,7 +1750,7 @@
       (reference "J2") (unit 1) (value "RX SPI Debug") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000619fd788"
-      (reference "J3") (unit 1) (value "Amphenol 132134 SMA Connector") (footprint "Connector_Coaxial:SMA_Amphenol_132134-11_Vertical")
+      (reference "J3") (unit 1) (value "Right Angle SMA Female") (footprint "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061a2ed84/00000000-0000-0000-0000-000061a3682f"
       (reference "J4") (unit 1) (value "10118192-0001LF") (footprint "Connector_USB:USB_Micro-B_Molex-105017-0001")
