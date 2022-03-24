@@ -4,6 +4,16 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Duplexer Network")
+    (date "2022-03-24")
+    (rev "v2.0.0")
+    (company "When HAMs Fly Senior Design Team")
+    (comment 1 "https://github.com/MSTRocketDesignTeam/Avionics-Telemetry-PCB")
+    (comment 2 "Board Revision 2")
+    (comment 3 "Schematic depicting logical connections between components")
+  )
+
   (lib_symbols
     (symbol "RDT_Custom_Symbols:RSD-897.500-942.500-1612-TR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 3.81 0)

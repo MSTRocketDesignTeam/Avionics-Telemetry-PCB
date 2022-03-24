@@ -6,11 +6,11 @@
 
   (title_block
     (title "Telemetry PCB Schematic")
-    (date "2021-10-01")
-    (rev "v1.0.1")
-    (company "Missouri S&T Rocket Design Team '21 (Thomas Francois)")
+    (date "2022-03-24")
+    (rev "v2.0.0")
+    (company "When HAMs Fly Senior Design Team")
     (comment 1 "https://github.com/MSTRocketDesignTeam/Avionics-Telemetry-PCB")
-    (comment 2 "Intended as initial pre-production design")
+    (comment 2 "Board Revision 2")
     (comment 3 "Schematic depicting logical connections between components")
   )
 
