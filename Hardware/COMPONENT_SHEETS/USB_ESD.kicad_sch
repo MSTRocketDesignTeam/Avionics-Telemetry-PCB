@@ -1260,7 +1260,7 @@
     (property "Datasheet" "~" (id 3) (at 119.38 82.55 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" " C239808 " (id 4) (at 119.38 82.55 0)
+    (property "LCSC" "C22624" (id 4) (at 119.38 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 32516184-21db-43b1-8285-9c0f768f8626))
