@@ -13,14 +13,14 @@ Comment,Designator,Footprint,LCSC
 1pF,C7,Capacitor_SMD:C_0402_1005Metric, C1550 
 DC_Blocking,C8,Capacitor_SMD:C_0402_1005Metric,
 4.3pF,"C9,C10",Capacitor_SMD:C_0402_1005Metric,C159803 
-D_Schottky_Small,D1,Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder, C239808 
+D_Schottky_Small,D1,Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C22624
 Red,"D2,D4,D6",LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder, C2286 
 Grn,"D3,D5",LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder, C165982 
 Ferrite_Bead_Small,FB1,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C76892 
 TX SPI Debug,J1,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,
 RX SPI Debug,J2,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,
-Right Angle SMA Female,J3,Connector_Coaxial:SMA_Molex_73251-2200_Horizontal,
-10118192-0001LF,J4,Connector_USB:USB_Micro-B_Molex-105017-0001,
+Right Angle SMA Female,J3,Connector_Coaxial:SMA_Molex_73251-2200_Horizontal,C429844
+10118192-0001LF,J4,Connector_USB:USB_Micro-B_Molex-105017-0001,C132564
 DB37_Male_MountingHoles,J5,RDT_Custom_Footprints:L717SDC37P1ACH4F,
 Debug Jumper,JP1,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,
 18nH,L1,Inductor_SMD:L_0402_1005Metric,C24562
@@ -42,6 +42,6 @@ ADL5521,U2,Package_CSP:LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm,
 RSD-897.500-942.500-1612-TR,U3,RDT_Custom_Footprints:RSD-897.500-942.500-1612-TR,
 LP38692MPX-ADJ,U4,Package_TO_SOT_SMD:SOT-223-5,C527485
 USBLC6-2SC6,U5,Package_TO_SOT_SMD:SOT-23-6,C7519
-Si4463,"U1,U6",Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias,
-STM32L562VET6Q,U7,Package_QFP:LQFP-100_14x14mm_P0.5mm,
+Si4463,"U1,U6",Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias,C476202
+STM32L562VET6Q,U7,Package_QFP:LQFP-100_14x14mm_P0.5mm,C1236652
 32MHz,"Y1,Y2,Y3",RDT_Custom_Footprints:XTAL_ABM7-32.000MHZ-D2Y-T,
