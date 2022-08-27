@@ -2731,7 +2731,7 @@
     (uuid 1e76e978-f957-40c0-bfb3-aaa084b976c8)
     (property "Reference" "R11" (id 0) (at 245.745 79.375 0))
     (property "Value" "4.7k" (id 1) (at 245.745 76.835 0))
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (id 2) (at 242.57 78.105 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 242.57 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 242.57 78.105 0)
