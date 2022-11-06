@@ -1352,7 +1352,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a51e77)
     (property "Reference" "U5" (id 0) (at 226.06 87.63 0))
-    (property "Value" "USBLC6-2SC6" (id 1) (at 228.6 104.14 0))
+    (property "Value" "USBLC6-2SC6" (id 1) (at 228.6 105.41 0))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (id 2) (at 200.66 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )

@@ -539,7 +539,7 @@
       "idf": "",
       "netlist": "Telemetry_KiCAD_Project.net",
       "specctra_dsn": "",
-      "step": "../../../../Downloads/Telemetry_KiCAD_Project_Corrected_Dimensions.step",
+      "step": "../../Telemetry_KiCAD_Project_Corrected_Dimensions.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
