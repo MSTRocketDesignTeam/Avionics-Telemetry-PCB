@@ -16,13 +16,13 @@
 
   (lib_symbols
     (symbol "Connector:DB37_Male_MountingHoles" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (id 0) (at 0 52.705 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Reference" "J5" (id 0) (at 4.572 0.3556 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "DB37_Male_MountingHoles" (id 1) (at 0 50.8 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "DB37_Male_MountingHoles" (id 1) (at 4.572 -1.9558 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "" (id 2) (at 0 0 0)
+      (property "Footprint" "RDT_Custom_Footprints:L717SDC37P1ACH4F" (id 2) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" " ~" (id 3) (at 0 0 0)
