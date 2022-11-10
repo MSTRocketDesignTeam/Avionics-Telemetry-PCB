@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name RDT_Custom_Footprints)(type KiCad)(uri ${KIPRJMOD}/LIBRARIES/RDT_Custom_Footprints.pretty)(options "")(descr ""))
-  (lib (name Custom_Graphics)(type KiCad)(uri ${KIPRJMOD}/LIBRARIES/Graphics.pretty)(options "")(descr ""))
+  (lib (name "RDT_Custom_Footprints")(type "KiCad")(uri "${KIPRJMOD}/LIBRARIES/RDT_Custom_Footprints.pretty")(options "")(descr ""))
+  (lib (name "Custom_Graphics")(type "KiCad")(uri "${KIPRJMOD}/LIBRARIES/Graphics.pretty")(options "")(descr ""))
+  (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/LIBRARIES/LIB_STM32L562ZET6/STM32L562ZET6/KiCad")(options "")(descr ""))
 )
