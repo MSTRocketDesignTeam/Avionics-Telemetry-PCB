@@ -584,15 +584,20 @@
       (net 1 "GND") (pinfunction "Ext") (pintype "passive") (tstamp 88c6edea-6253-49d0-b86f-66c43980d0b9))
     (pad "2" thru_hole circle (at -2.54 2.54 90) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "Ext") (pintype "passive") (tstamp afabd55d-fcf5-4532-b986-e54375f86877))
-    (model "${KIPRJMOD}/LIBRARIES/RDT_Custom_Footprints.3dshapes/SMA-J-P-H-RA-TH1--3DModel-STEP-56544.STEP"
+    (model "${KIPRJMOD}/LIBRARIES/RDT_Custom_Footprints.3dshapes/SMA-J-P-H-RA-TH1--3DModel-STEP-56544.STEP" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -180))
     )
-    (model "${KIPRJMOD}/LIBRARIES/RDT_Custom_Footprints.3dshapes/901-9867-rfx.step"
+    (model "${KIPRJMOD}/LIBRARIES/RDT_Custom_Footprints.3dshapes/901-9867-rfx.step" hide
       (offset (xyz 0 6 6.25))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
+    )
+    (model "${KIPRJMOD}/LIBRARIES/RDT_Custom_Footprints.3dshapes/132134.stp"
+      (offset (xyz 0 0 9.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 -90 0))
     )
   )
 
@@ -950,7 +955,7 @@
     )
   )
 
-  (footprint "RDT_Custom_Footprints:L717SDC37P1ACH4F" (layer "F.Cu")
+  (footprint "RDT_Custom_Footprints:L717SDC37P1ACH4F" locked (layer "F.Cu")
     (tedit 0) (tstamp 00000000-0000-0000-0000-000061e35754)
     (at 93 71.8 -90)
     (descr "L717SDC37P1ACH4F-1")
@@ -1081,7 +1086,7 @@
       (net 11 "+5V") (pinfunction "37") (pintype "passive") (tstamp a26c38a6-59e5-4e42-ae53-2f2da76c4d35))
     (pad "MH1" thru_hole circle locked (at -6.82 1.27 270) (size 4.8 4.8) (drill 3.2) (layers *.Cu *.Mask) (tstamp 7f8fed9e-6d04-413a-898e-c160c70f817b))
     (pad "MH2" thru_hole circle locked (at 56.68 1.27 270) (size 4.8 4.8) (drill 3.2) (layers *.Cu *.Mask) (tstamp 5aceda7c-cb96-42bf-b14d-d0a4c7346061))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-37_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-37_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

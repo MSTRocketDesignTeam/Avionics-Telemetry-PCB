@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32L562ZET6
+D 32-bit Microcontrollers - MCU 16/32-BITS MICROS
+K
+F https://www.mouser.pe/datasheet/2/389/stm32l562ce-1851211.pdf
+$ENDCMP
+#
+#End Doc Library

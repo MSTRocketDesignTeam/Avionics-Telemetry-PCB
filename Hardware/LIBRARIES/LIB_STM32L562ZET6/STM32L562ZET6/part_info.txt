@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32L562ZET6
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=144
+Version=1.1
+Released=2021-01-08 07:00:36
+Downloaded=2022-11-10 16:30:46
+3D=Y

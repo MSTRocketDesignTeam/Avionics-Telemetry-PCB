@@ -1746,6 +1746,9 @@
     (path "/00000000-0000-0000-0000-000061a2ed84/00000000-0000-0000-0000-000061a399bc"
       (reference "FB1") (unit 1) (value "Ferrite_Bead_Small") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
+    (path "/00000000-0000-0000-0000-000061a107a5/e92e865f-b10f-411a-b300-c2b9716546dc"
+      (reference "IC1") (unit 1) (value "STM32L562ZET6") (footprint "QFP50P2200X2200X160-144N")
+    )
     (path "/00000000-0000-0000-0000-000061bf0412"
       (reference "J1") (unit 1) (value "TX SPI Debug") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
     )
@@ -1853,9 +1856,6 @@
     )
     (path "/00000000-0000-0000-0000-0000619d9c89/00000000-0000-0000-0000-0000619d9e16"
       (reference "U6") (unit 1) (value "Si4463") (footprint "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias")
-    )
-    (path "/00000000-0000-0000-0000-000061a107a5/00000000-0000-0000-0000-000061a5d08a"
-      (reference "U7") (unit 1) (value "STM32L562VET6Q") (footprint "Package_QFP:LQFP-100_14x14mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-000061a0416a/00000000-0000-0000-0000-000061bffae7"
       (reference "Y1") (unit 1) (value "32MHz") (footprint "RDT_Custom_Footprints:XTAL_ABM7-32.000MHZ-D2Y-T")
