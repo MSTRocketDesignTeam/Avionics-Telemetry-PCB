@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.7)"
     },
-    "CreationDate": "2022-08-27T16:35:56-04:00"
+    "CreationDate": "2022-11-16T18:44:32-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -24,10 +24,10 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.1524,
-      "PadToTrack": 0.1524,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.09,
-      "MinLineWidth": 0.2,
+      "MinLineWidth": 0.15,
       "TrackToRegion": 0.5,
       "RegionToRegion": 0.5
     },
@@ -108,44 +108,53 @@
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 0.48,
       "Material": "FR4",
       "Name": "F.Cu/GND.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to GND.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "GND.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 0.48,
       "Material": "FR4",
       "Name": "GND.Cu/3.3V.Cu",
       "Notes": "Type: dielectric layer 2 (from GND.Cu to 3.3V.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "3.3V.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 0.48,
       "Material": "FR4",
       "Name": "3.3V.Cu/B.Cu",
       "Notes": "Type: dielectric layer 3 (from 3.3V.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
