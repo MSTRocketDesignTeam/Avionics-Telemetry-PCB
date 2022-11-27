@@ -1087,7 +1087,7 @@
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "COMPONENT_SHEETS/Si4463_TX.kicad_sch" (id 1) (at 161.29 81.8646 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
+      (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "~{SEL}" input (at 161.29 59.69 180)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1127,7 +1127,7 @@
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "COMPONENT_SHEETS/RSD_Duplexer.kicad_sch" (id 1) (at 219.71 95.8346 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
+      (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "RX_In" input (at 219.71 91.44 180)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1151,7 +1151,7 @@
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "COMPONENT_SHEETS/ADL_Amplifier.kicad_sch" (id 1) (at 187.96 72.9746 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
+      (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "RF_In" input (at 187.96 66.04 180)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1171,7 +1171,7 @@
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "COMPONENT_SHEETS/Si4463_RX.kicad_sch" (id 1) (at 161.29 114.8846 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
+      (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "~{SEL}" input (at 161.29 92.71 180)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1211,7 +1211,7 @@
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "COMPONENT_SHEETS/MCU_L562VE.kicad_sch" (id 1) (at 72.39 121.2346 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
+      (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "I2C1_SCL" input (at 72.39 64.77 180)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1327,7 +1327,7 @@
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "COMPONENT_SHEETS/USB_ESD.kicad_sch" (id 1) (at 153.67 137.7446 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
+      (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "D-" input (at 153.67 133.35 180)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1347,7 +1347,7 @@
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "COMPONENT_SHEETS/DSUB-37_Male.kicad_sch" (id 1) (at 19.05 111.0746 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
+      (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "t_mosi" input (at 31.75 72.39 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -1611,10 +1611,10 @@
     (path "/00000000-0000-0000-0000-000061a107a5/0e2752f8-66e8-4b73-afb2-939684e60d28"
       (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061a107a5/7f82d1cb-b614-4fa9-996b-2dcdfeb7d231"
+    (path "/00000000-0000-0000-0000-000061a107a5/01d83635-704b-488b-9901-dfea0ac60b27"
       (reference "#PWR0112") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061a107a5/e6d1eff1-b11e-47a8-9926-c2dd0ea87b9d"
+    (path "/00000000-0000-0000-0000-000061a107a5/f9889664-338d-4d79-a720-ec314b4c3a0f"
       (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061a107a5/5988e6cb-5153-41b8-bc06-d680f93d20f1"
@@ -1641,10 +1641,10 @@
     (path "/00000000-0000-0000-0000-000061a107a5/5240eb84-6b54-4ee1-b1f1-fc9a9e1d9246"
       (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061a107a5/bb8a8624-315a-438c-9a7c-8b7400447a4c"
-      (reference "#PWR0122") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-0000-000061a107a5/ad0e53fe-bbe4-4730-b12d-f8ad692cd8c9"
+      (reference "#PWR0122") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061a107a5/2b589a53-5dfd-4289-b287-9df7c600378b"
+    (path "/00000000-0000-0000-0000-000061a107a5/74510af1-b519-49d1-8174-9d2803271b74"
       (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061a107a5/096294fb-65ba-43ce-ac13-947af90cc345"
@@ -1667,12 +1667,6 @@
     )
     (path "/00000000-0000-0000-0000-000061a107a5/4bf31de1-bf70-47cf-95a6-15e9d4052126"
       (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061a107a5/7ca001d7-7c09-4cdd-8015-437f19c1fa55"
-      (reference "#PWR0131") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061a107a5/df434ecc-ba53-4757-9eaa-13bad6fbfdde"
-      (reference "#PWR0132") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061a0416a/00000000-0000-0000-0000-0000619f8bd8"
       (reference "C1") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
