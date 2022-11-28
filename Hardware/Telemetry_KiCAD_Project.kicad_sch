@@ -1894,7 +1894,7 @@
       (reference "R11") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000061a107a5/3376bd56-9efd-4f2b-852a-e2dafccb6289"
-      (reference "R12") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder")
+      (reference "R12") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000061a107a5/00000000-0000-0000-0000-000061f1a897"
       (reference "SW1") (unit 1) (value "MCU Reset") (footprint "Button_Switch_SMD:SW_SPST_PTS645")
