@@ -1818,8 +1818,8 @@
     (path "/00000000-0000-0000-0000-0000619fd788"
       (reference "J3") (unit 1) (value "Right Angle SMA Female") (footprint "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-000061a2ed84/00000000-0000-0000-0000-000061a3682f"
-      (reference "J4") (unit 1) (value "10118192-0001LF") (footprint "Connector_USB:USB_Micro-B_Molex-105017-0001")
+    (path "/00000000-0000-0000-0000-000061a2ed84/96565d9e-9230-4e69-b446-40dbe0e5e6d3"
+      (reference "J4") (unit 1) (value "609-4613-1-ND") (footprint "digikeyUSBConnector:USB_Micro_B_Female_10118192")
     )
     (path "/00000000-0000-0000-0000-000061c225ad/00000000-0000-0000-0000-000061c22f27"
       (reference "J5") (unit 1) (value "DB37_Male_MountingHoles") (footprint "RDT_Custom_Footprints:L717SDC37P1ACH4F")
