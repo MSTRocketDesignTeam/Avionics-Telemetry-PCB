@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(6.0.7)"
+      "Version": "(6.0.10)"
     },
-    "CreationDate": "2022-12-11T17:18:47-05:00"
+    "CreationDate": "2023-01-02T18:32:23-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Telemetry_KiCAD_Project",
       "GUID": "54656c65-6d65-4747-9279-5f4b69434144",
-      "Revision": "rev?"
+      "Revision": "3"
     },
     "Size": {
       "X": 80.05,
-      "Y": 93.65
+      "Y": 93.67
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
