@@ -4,4 +4,5 @@
   (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/LIBRARIES/LIB_STM32L562ZET6/STM32L562ZET6/KiCad")(options "")(descr ""))
   (lib (name "LIBRARIES")(type "KiCad")(uri "${KIPRJMOD}/LIBRARIES")(options "")(descr ""))
   (lib (name "digikeyUSBConnector")(type "KiCad")(uri "${KIPRJMOD}/LIBRARIES/digikeyUSBConnector")(options "")(descr ""))
+  (lib (name "jtag")(type "KiCad")(uri "${KIPRJMOD}/LIBRARIES/JTAGConnector/2023-01-07_02-19-30/footprints.pretty")(options "")(descr ""))
 )
